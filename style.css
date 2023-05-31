@@ -1,0 +1,12 @@
+body {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 15%;
+  vertical-align: middle;
+  background-color: darkslategray;
+}
+
+.headtitle {
+  color: aqua;
+}
