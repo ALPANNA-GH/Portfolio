@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@600&display=swap');
 
-html, body
-{
+body{
   height: max-content;
   width: 100%;
   overflow-x: hidden;
@@ -13,21 +12,22 @@ html, body
 }
 
 .flex { display: flex; }
+
 .nav {
-  background-color: #3E3C3C;
+  background-color: #3e3c3c;
   width: 100%;
   height: 50px;
 }
 
 .logo {
-  display:flex;
+  display: flex;
   justify-content: center;
   flex: 2;
 }
 
 .logo img {
   height: 7vmin;
-  margin:5px;
+  margin: 5px;
 }
 
 .navBar {
@@ -40,15 +40,14 @@ html, body
   margin: 0 5px;
 }
 
-
-ul { 
+ul {
   display: flex;
   justify-content: center;
-  list-style: none; 
+  list-style: none;
 }
 
 a {
-  color: #fff; 
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   text-decoration: none;
