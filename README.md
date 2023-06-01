@@ -18,29 +18,29 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Hello_Microverse] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> The very beginning project at Microverse
+> Portfolio my portfolio website project
 
-**[Hello_Microverse]** is a...
-- simple html file that show the using of linter and GitHub-Flow
+**[Portfolio]** is a...
+- simple html file that shows my porfolio mobile first approach
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
 - using linter and GitHub-flow
+- using flexbox and grid design technique by only html css
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > see the hello microverse from here.
 
-- [Live Demo Link](<a href="https://raw.githack.com/ALPANNA-GH/Hello-Microverse/HomePage/index.html" target="_blank" >Hello Microvers</a>)
+- [Live Demo Link](<a href="https://raw.githack.com/ALPANNA-GH/Portfolio/HomePage/index.html" target="_blank" >Portfolio</a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> use this project to learn how to setup and use
-linter and GitHub-flow with your application
+> this Portfolio show my skills, talent, and my done projects
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,9 +60,8 @@ linter and GitHub-flow with your application
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[linter]**
-- [ ] **[GitHub-Flow]**
-- [ ] **[Lighthous]**
+- [ ] **[Portfolio_page]**
+- [ ] **[About_page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,13 +75,13 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Open for any suggestions and feedback
+Open for any suggestions or feedback
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks for <a href="https://github.com/V-Blaze" target="_blank">V-Blaze</a> for valuable reviews
+Thanks for <a href="https://github.com/V-Blaze" target="_blank">My Reviewers</a> for valuable reviews
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
