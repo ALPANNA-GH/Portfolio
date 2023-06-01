@@ -34,7 +34,7 @@
 
 > see the hello microverse from here.
 
-- [Live Demo Link](<a href="https://raw.githack.com/ALPANNA-GH/Portfolio/HomePage/index.html" target="_blank" >Portfolio</a>)
+- [Live Demo Link](https://raw.githack.com/ALPANNA-GH/Portfolio/HomePage/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,7 +50,7 @@
 👤 **Author**
 
 - Ahmed Alpanna
-- GitHub: [@githubhandle](<a href="https://github.com/ALPANNA-GH" target="_blank">Ahmed Alpanna</a>)
+- GitHub: [@ALPANNA-GH](https://github.com/ALPANNA-GH)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -70,7 +70,6 @@
 
 Contributions, issues, and feature requests are welcome!
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -81,7 +80,7 @@ Open for any suggestions or feedback
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks for <a href="https://github.com/V-Blaze" target="_blank">My Reviewers</a> for valuable reviews
+Thanks for My Partners, Conterputers, Reviewers for valuable Advices
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
