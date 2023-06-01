@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@600&display=swap');
 
-body{
+body {
   height: max-content;
   width: 100%;
   overflow-x: hidden;
@@ -11,7 +11,9 @@ body{
   margin: 0%;
 }
 
-.flex { display: flex; }
+.flex {
+  display: flex;
+}
 
 .nav {
   background-color: #3e3c3c;
@@ -69,12 +71,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex:5;
+  flex: 5;
 }
 
 .bodyTxt h1 {
   font-family: 'Crete Round', serif;
-  font-size:xx-large;
+  font-size: xx-large;
   font-weight: 400;
 }
 
