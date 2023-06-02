@@ -86,14 +86,15 @@ ul {
 }
 
 a {
-  color: #fff;
+  color: #f3f3f3;
+  opacity: 0.8;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff6b00;
+  opacity: 1;
 }
 
 .logo {
