@@ -4,47 +4,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-  height: max-content;
+  min-height: 100%;
   width: 100%;
-  height: max-content;
   background-color: #1c1a19;
   color: #fff;
-  padding: 0%;
-  margin: 0%;
 }
 
 .flex {
   display: flex;
-  max-height: 100%;
-  overflow: hidden;
-  flex-basis: auto;
+  flex-basis: 100%;
+  border: #fff 1px solid;
 }
 
-.justArround { justify-content: space-around; }
+.justArround {
+  justify-content: space-around;
+}
 
-.justCenter { justify-content: center; }
+.justCenter {
+  justify-content: center;
+}
 
-.justRight { justify-content: right; }
+.justEnd {
+  justify-content: end;
+}
 
-.justLeft { justify-content: left; }
+.justRight {
+  justify-content: right;
+}
 
-.dir-column { flex-direction: column; }
+.justLeft {
+  justify-content: left;
+}
 
-.margAuto{ margin: auto; }
+.dir-column {
+  flex-direction: column;
+}
 
-.margX { margin: 0% 5%; }
+.margAuto {
+  margin: auto;
+}
 
-.margY { margin: 5% 0%; }
+.margX {
+  margin: 0% 5%;
+}
 
-.flex1 { flex: 1; }
+.margY {
+  margin: 5% 0%;
+}
 
-.flex2 { flex: 2; }
+.flex1 {
+  flex: 1;
+}
 
-.flex3 { flex: 3; }
+.flex2 {
+  flex: 2;
+}
 
-.flex5 { flex: 5; }
+.flex3 {
+  flex: 3;
+}
 
-.flex7 { flex: 7; }
+.flex5 {
+  flex: 5;
+}
+
+.flex7 {
+  flex: 7;
+}
 
 .nav {
   background-color: #3e3c3c;
@@ -73,20 +99,30 @@ a {
   font-weight: 700;
 }
 
+.main {
+  height: 80vmax;
+}
+
 .socialIcons img {
   width: 1rem;
-  margin: 0.5rem ;
+  margin: 0.5rem;
 }
 
 .bodyTxt {
-  width: 80%;
+  width: 90%;
+}
+
+.nopadnomrg {
+  padding: 0;
+  margin: 0;
 }
 
 .bodyTxt h1 {
   font-family: 'Crete Round', serif;
-  font-size: xx-large;
+  font-size: 3rem;
   font-weight: 400;
   color: #ff6b00;
+
 }
 
 .bodyTxt h3 {
@@ -100,5 +136,7 @@ a {
 }
 
 .bodyImg img {
-  width: 30%;
+  margin-top: -25%;
+  float: right;
+  width: 40%;
 }
