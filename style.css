@@ -92,6 +92,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ff6b00;
+}
+
 .logo {
   color: #fff;
   font-family: 'Roboto';
