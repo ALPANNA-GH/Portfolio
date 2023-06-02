@@ -13,7 +13,6 @@ body {
 .flex {
   display: flex;
   flex-basis: 100%;
-  border: #fff 1px solid;
 }
 
 .justArround {
