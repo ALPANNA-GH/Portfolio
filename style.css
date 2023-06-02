@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
   height: max-content;
   width: 100%;
-  overflow-x: hidden;
+  height: max-content;
   background-color: #1c1a19;
   color: #fff;
   padding: 0%;
@@ -13,38 +15,48 @@ body {
 
 .flex {
   display: flex;
+  max-height: 100%;
+  overflow: hidden;
+  flex-basis: auto;
 }
+
+.justArround { justify-content: space-around; }
+
+.justCenter { justify-content: center; }
+
+.justRight { justify-content: right; }
+
+.justLeft { justify-content: left; }
+
+.dir-column { flex-direction: column; }
+
+.margAuto{ margin: auto; }
+
+.margX { margin: 0% 5%; }
+
+.margY { margin: 5% 0%; }
+
+.flex1 { flex: 1; }
+
+.flex2 { flex: 2; }
+
+.flex3 { flex: 3; }
+
+.flex5 { flex: 5; }
+
+.flex7 { flex: 7; }
 
 .nav {
   background-color: #3e3c3c;
   width: 100%;
-  height: 50px;
+  height: 3rem;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  flex: 2;
-}
-
-.logo img {
-  height: 7vmin;
-  margin: 5px;
-}
-
-.navBar {
-  display: flex;
-  flex: 2;
-  justify-content: center;
-}
-
-.btn {
-  margin: 0 5px;
+.navBar img {
+  height: 1rem;
 }
 
 ul {
-  display: flex;
-  justify-content: center;
   list-style: none;
 }
 
@@ -55,37 +67,38 @@ a {
   text-decoration: none;
 }
 
-.bodyIcons {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 1;
+.logo {
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 700;
 }
 
-.bodyIcons img {
-  width: 25px;
-  margin: 5px;
+.socialIcons img {
+  width: 1rem;
+  margin: 0.5rem ;
 }
 
 .bodyTxt {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 5;
+  width: 80%;
 }
 
 .bodyTxt h1 {
   font-family: 'Crete Round', serif;
   font-size: xx-large;
   font-weight: 400;
+  color: #ff6b00;
 }
 
-.bodyImg {
-  display: flex;
-  justify-content: right;
-  flex: 7;
+.bodyTxt h3 {
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.bodyTxt p {
+  font-family: 'Poppins';
+  font-weight: 400;
 }
 
 .bodyImg img {
-  width: 75%;
+  width: 30%;
 }
