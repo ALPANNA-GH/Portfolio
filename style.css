@@ -3,9 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
   min-height: max-content;
-  width: 100%;
+  width: 100vw;
   background-color: #1c1a19;
   overflow: hidden;
   margin: 0;
@@ -13,10 +20,14 @@ body {
   color: #fff;
 }
 
+div{
+  border: #f3f3f3 1px solid;
+}
+
 .logo {
   display: flex;
   flex: 3;
-  margin-left: 2rem;
+  margin-left: 5vw;
   justify-content: left;
 }
 
@@ -30,10 +41,10 @@ body {
   display: flex;
   justify-content: end;
   flex: 1;
-  margin-right: 2rem;
+  margin-right: 5vw;
   background-color: #3e3c3c;
   width: 100%;
-  height: 3rem;
+  height: 15vw;
 }
 
 .nav {
@@ -60,57 +71,117 @@ a:hover {
   filter: brightness(200%);
 }
 
+/* main body style */
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('./images/Illustration-header.svg');
-  background-position: right bottom;
-  background-size: 50vw;
-  background-repeat: no-repeat;
   height: 100vh;
 }
 
 .socialIcons {
   flex: 1;
   order: 2;
-  margin-left: 1rem;
+  margin-left: 5vw;
 }
 
 .socialIcons img {
-  width: 1rem;
-  margin: 0.5rem;
+  height: 5vw;
+  margin: 2vw;
 }
 
 .bodyTxt {
-  flex: 2;
   display: flex;
+  flex: 10;
   flex-direction: column;
   justify-content: end;
-  margin: 0 auto;
+  margin: auto auto;
   order: 2;
-  width: 90%;
+  width: 90vw;
 }
 
 .bodyTxt h1 {
   font-family: 'Crete Round', serif;
-  font-size: 3rem;
+  font-size: 15vw;
   font-weight: 400;
   color: #ff6b00;
   margin: 0%;
 }
 
 .bodyTxt h3 {
+  font-size: 7vw;
   font-family: 'Roboto';
   font-weight: 700;
 }
 
 .bodyTxt p {
   font-family: 'Poppins';
+  font-size: 5vw;
   font-weight: 400;
   margin: 0;
 }
 
-@media all and (min-width: 375px) {
+.bodyImage {
+  display: flex;
+  justify-content: right;
+  overflow: hidden;
+  width: 100%;
+  order: 3;
+  flex: 8;
+  padding: 0;
+  margin: -25% -50% 0 0;
+  width: 100vw;
+}
 
+.bodyImage img {
+  width: 60vw;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////  */
+/* media width 375px or more */
+@media all and (min-width: 375px) {
+  .toolbar {
+    height: 10vw;
+  }
+
+  a {
+    font-size: 4vw;
+  }
+
+  .bodyTxt {
+    flex: 10;
+  }
+
+  .bodyImage {
+    flex: 7;
+    margin: -25% -50% 0 0;
+  }
+
+  .bodyImage img {
+    width: 40vw;
+  }
+}
+
+/* /////////////////////////////////////////////////////////////////////  */
+/* /*  media width 768 or more */
+
+@media all and (min-width: 768px) {
+  .toolbar {
+    height: 10vw;
+  }
+
+  a {
+    font-size: 5vw;
+  }
+
+  .nav img {
+    width: 7vw;
+  }
+
+  .bodyImage img {
+    width: 50vw;
+  }
 }
