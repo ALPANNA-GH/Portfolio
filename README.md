@@ -80,7 +80,7 @@ Open for any suggestions or feedback
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks for My Partners, Conterputers, Reviewers for valuable Advices
+Thanks to My Partners, Contributors, and Reviewers for valuable advice.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

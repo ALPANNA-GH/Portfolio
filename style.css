@@ -31,12 +31,12 @@ div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
+  -ms-flex: 3;
+  flex: 3;
   margin-left: 5vw;
   -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
 }
 
 .logo p {
@@ -50,11 +50,11 @@ div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   margin-right: 5vw;
   background-color: #3e3c3c;
   width: 100%;
@@ -67,8 +67,8 @@ div {
   display: flex;
   margin-right: 2rem;
   -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
 }
 
 ul {
@@ -87,7 +87,7 @@ a:hover {
   color: #fff;
   opacity: 1;
   -webkit-filter: brightness(200%);
-          filter: brightness(200%);
+  filter: brightness(200%);
 }
 
 /* main body style */
@@ -97,21 +97,21 @@ a:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 100vh;
 }
 
 .socialIcons {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order: 2;
+  order: 2;
   margin-left: 5vw;
 }
 
@@ -125,19 +125,19 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 10;
-      -ms-flex: 10;
-          flex: 10;
+  -ms-flex: 10;
+  flex: 10;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   margin: auto auto;
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order: 2;
+  order: 2;
   width: 90vw;
 }
 
@@ -167,16 +167,16 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
   overflow: hidden;
   width: 100%;
   -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
+  -ms-flex-order: 3;
+  order: 3;
   -webkit-box-flex: 8;
-      -ms-flex: 8;
-          flex: 8;
+  -ms-flex: 8;
+  flex: 8;
   padding: 0;
   margin: -25% -50% 0 0;
   width: 100vw;
@@ -202,14 +202,14 @@ a:hover {
 
   .bodyTxt {
     -webkit-box-flex: 10;
-        -ms-flex: 10;
-            flex: 10;
+    -ms-flex: 10;
+    flex: 10;
   }
 
   .bodyImage {
     -webkit-box-flex: 7;
-        -ms-flex: 7;
-            flex: 7;
+    -ms-flex: 7;
+    flex: 7;
     margin: -25% -50% 0 0;
   }
 
