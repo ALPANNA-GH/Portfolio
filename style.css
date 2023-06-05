@@ -22,10 +22,6 @@ body {
   color: #fff;
 }
 
-div {
-  border: #f3f3f3 1px solid;
-}
-
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,7 +37,7 @@ div {
 
 .logo p {
   color: #fff;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -151,12 +147,12 @@ a:hover {
 
 .bodyTxt h3 {
   font-size: 7vw;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
 .bodyTxt p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-size: 5vw;
   font-weight: 400;
   margin: 0;
@@ -170,7 +166,6 @@ a:hover {
   -ms-flex-pack: right;
   justify-content: right;
   overflow: hidden;
-  width: 100%;
   -webkit-box-ordinal-group: 4;
   -ms-flex-order: 3;
   order: 3;
@@ -186,10 +181,6 @@ a:hover {
   width: 60vw;
 }
 
-
-
-
-/* ////////////////////////////////////////////////////////////////  */
 /* media width 375px or more */
 @media all and (min-width: 375px) {
   .toolbar {
@@ -218,9 +209,7 @@ a:hover {
   }
 }
 
-/* /////////////////////////////////////////////////////////////////////  */
-/* /*  media width 768 or more */
-
+/*  media width 768 or more */
 @media all and (min-width: 768px) {
   .toolbar {
     height: 10vw;
