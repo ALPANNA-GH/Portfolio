@@ -191,6 +191,11 @@ a:hover {
     font-size: 4vw;
   }
 
+  .socialIcons img {
+    height: 2vw;
+    margin: 1.5vw;
+  }
+
   .bodyTxt {
     -webkit-box-flex: 10;
     -ms-flex: 10;
@@ -212,15 +217,62 @@ a:hover {
 /*  media width 768 or more */
 @media all and (min-width: 768px) {
   .toolbar {
-    height: 10vw;
+    height: 5vw;
   }
 
   a {
-    font-size: 5vw;
+    font-size: 2vw;
   }
 
   .nav img {
-    width: 7vw;
+    width: 3vw;
+  }
+
+  .main {
+    flex-direction: row;
+    flex-basis: 30vw;
+  }
+
+  .socialIcons {
+    flex-direction: column;
+    order: 1;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .socialIcons img {
+    height: 2vw;
+    margin: 1.5vw;
+  }
+
+  .bodyTxt {
+    order: 2;
+    flex: 10;
+    justify-content: left;
+    margin: auto 1vw;
+  }
+
+  .bodyTxt h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 6vw;
+  }
+  
+  .bodyTxt h3 {
+    font-size: 3vw;
+    margin: 2vw;
+    
+  }
+  
+  .bodyTxt p {
+    font-size: 2vw;
+    margin: 0;
+  }  
+
+  .bodyImage {
+    justify-content: right;
+    flex: 7;
+    order: 3;
+    margin: 0;
   }
 
   .bodyImage img {
