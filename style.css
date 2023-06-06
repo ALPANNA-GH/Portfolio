@@ -78,7 +78,6 @@ a {
   text-decoration: none;
 }
 
-
 a:hover {
   color: #fff;
   opacity: 1;
@@ -247,5 +246,4 @@ a:hover {
     font-size: 2vw;
     margin: 0;
   }
-
 }
