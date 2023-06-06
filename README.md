@@ -1,40 +1,12 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/alpanna_logo_xsmall_bg.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio</b></h3>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -57,8 +29,6 @@ After you're finished please remove all the comments and instructions!
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
@@ -94,23 +64,19 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> features of the application.
 
-- **[GitHub-workflow]**
-- **[linter]**
-- **[html&css]**
+- **GitHub-workflow**
+- **Linter**
+- **HTML & CSS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> the link to your the portfolio.
+> the link to the live portfolio.
 
 - [Live Demo Link](https://raw.githack.com/ALPANNA-GH/Portfolio/index.html)
 
@@ -134,14 +100,6 @@ Clone this repository to your desired folder:
 ### Install
 
 NO installation required
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
@@ -158,7 +116,6 @@ No deployment required
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -173,18 +130,15 @@ Ahmed Alpanna
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
-> 
+> Some future features gonna be added soon
 
 - [ ] **Javascript**
 - [ ] **ReactJs**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -194,7 +148,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -204,7 +157,6 @@ If you like this project your comments, messeges, and support are welcome.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -213,8 +165,6 @@ If you like this project your comments, messeges, and support are welcome.
 I would like to thank all the reviewers who guid me through this project ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
@@ -237,5 +187,4 @@ I would like to thank all the reviewers who guid me through this project ...
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
