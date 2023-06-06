@@ -238,24 +238,24 @@ a:hover {
   .main {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -ms-flex-preferred-size: 30vw;
-        flex-basis: 30vw;
+    flex-basis: 30vw;
   }
 
   .socialIcons {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     margin: auto;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .socialIcons img {
@@ -265,14 +265,14 @@ a:hover {
 
   .bodyTxt {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
     -webkit-box-flex: 10;
-        -ms-flex: 10;
-            flex: 10;
+    -ms-flex: 10;
+    flex: 10;
     -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
+    -ms-flex-pack: left;
+    justify-content: left;
     margin: auto 1vw;
   }
 
@@ -294,14 +294,14 @@ a:hover {
 
   .bodyImage {
     -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    -ms-flex-pack: right;
+    justify-content: right;
     -webkit-box-flex: 7;
-        -ms-flex: 7;
-            flex: 7;
+    -ms-flex: 7;
+    flex: 7;
     -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
+    -ms-flex-order: 3;
+    order: 3;
     margin: 0;
   }
 
