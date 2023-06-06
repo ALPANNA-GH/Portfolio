@@ -125,7 +125,7 @@ No deployment required
 
 Ahmed Alpanna
 - GitHub: [@github](https://github.com/ALPANNA-GH)
-- Gmail: [@gmail](alpanna@gmail.com)
+- Gmail: [@gmail](<a href="mailto:alpanna@gmail.com"></a>)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
