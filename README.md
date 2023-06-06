@@ -78,7 +78,7 @@ show your skills, experience, tools, and projects
 
 > the link to the live portfolio.
 
-- [Live Demo Link](https://raw.githack.com/ALPANNA-GH/Portfolio/index.html)
+- [Live Demo Link](https://alpanna-gh.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

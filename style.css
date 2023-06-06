@@ -201,6 +201,10 @@ a:hover {
     background-size: 70vh;
   }
 
+  a img, li img {
+    width: 25vh;
+  }
+  
   .social {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -233,17 +237,17 @@ a:hover {
   }
 
   .bodyTxt h1 {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 
   .bodyTxt h3 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin: 2vw;
   }
 
   .bodyTxt p {
     width: 60%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin: 0;
   }
 }
