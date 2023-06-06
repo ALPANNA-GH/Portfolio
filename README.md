@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./images/alpanna_logo_xsmall_bg.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/alpanna_logo_xsmall_bg.png" alt="logo"  height="auto" />
   <br/>
 
   <h3><b>Portfolio</b></h3>
@@ -30,12 +30,13 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> Here you find all about my professional life
-> my skills, experience, tools, and projects
+> Here you find some useful information about the project
 
-**[Portfolio]** is a...
+**Portfolio** is a portfolio website template that you can use to
+show your skills, experience, tools, and projects
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -82,7 +83,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -103,7 +103,7 @@ NO installation required
 
 ### Usage
 
-Just open index.html file
+You can use it as a template for your own Portfolio
 
 ### Run tests
 
@@ -119,12 +119,12 @@ No deployment required
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> Collaborators of this project.
 
-👤 **Author1**
+👤 **Author**
 
 Ahmed Alpanna
-- GitHub: [@githubhandle](https://github.com/ALPANNA-GH)
+- GitHub: [@github](https://github.com/ALPANNA-GH)
 - Gmail: [@gmail](alpanna@gmail.com)
 
 
@@ -184,7 +184,7 @@ I would like to thank all the reviewers who guid me through this project ...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is under [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
