@@ -3,8 +3,14 @@
 <div align="center">
   <img src="./images/alpanna_logo_xsmall_bg.png" alt="logo"  height="auto" />
   <br/>
-    <h1 style="font-size: 60px; font-weight: 700;"><b> Portfolio </b></h1>
+    <h1 style="font-size: 60px; font-weight: 900;"><b> Portfolio </b></h1>
 </div>
+
+<style>
+  ul, li {
+    list-style: none;
+  }
+</style>
 
 ## 📗 Table of Contents
 
