@@ -201,7 +201,7 @@ a:hover {
     background-size: 70vh;
   }
 
-  a img, li img {
+  .social a img, li img {
     width: 25vh;
   }
   
