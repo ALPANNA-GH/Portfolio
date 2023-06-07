@@ -4,7 +4,7 @@
   <img src="./images/alpanna_logo_xsmall_bg.png" alt="logo"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio</b></h3>
+  # <h1><b> Portfolio </b></h1>
 
 </div>
 
@@ -123,8 +123,8 @@ No deployment required
 👤 **Author**
 
 Ahmed Alpanna
-- GitHub: [@github](https://github.com/ALPANNA-GH)
-- Gmail: [@gmail](mailto:alpanna@gmail.com)
+- GitHub: [@ALPANNA-GH](https://github.com/ALPANNA-GH)
+- Gmail: [@alpanna](mailto:alpanna@gmail.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
