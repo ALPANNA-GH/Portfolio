@@ -58,28 +58,28 @@ show your skills, experience, tools, and projects
 <details>
 <summary>JavaScript</summary>
   <ul>
-    <li><a href="https://eslint.org/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/Js.png" ></a></li>
+    <li><a href="https://www.javascript.com/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/Js.png" ></a></li>
   </ul>
 </details>
 
 <details>
 <summary>NodeJs</summary>
   <ul>
-    <li><a href="https://eslint.org/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/Nodejs.png" ></a></li>
+    <li><a href="https://nodejs.org/en"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/Nodejs.png" ></a></li>
   </ul>
 </details>
 
 <details>
 <summary>GitHub</summary>
   <ul>
-    <li><a href="https://eslint.org/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/github.png" ></a></li>
+    <li><a href="https://github.com/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/github.png" ></a></li>
   </ul>
 </details>
 
 <details>
 <summary>GitHub-WorkFlows</summary>
   <ul>
-    <li><a href="https://eslint.org/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/github-wf.png" ></a></li>
+    <li><a href="https://docs.github.com/en/actions/using-workflows"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/github-wf.png" ></a></li>
   </ul>
 </details>
 
