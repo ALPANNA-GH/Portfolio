@@ -187,6 +187,11 @@ a:hover {
     font-size: 2vw;
   }
 
+  a img,
+  li img {
+    width: 25vh;
+  }
+
   .nav img {
     width: 3vw;
   }
@@ -201,10 +206,6 @@ a:hover {
     background-size: 70vh;
   }
 
-  .social a img, li img {
-    width: 25vh;
-  }
-  
   .social {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
