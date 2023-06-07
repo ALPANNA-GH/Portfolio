@@ -4,7 +4,7 @@
   <img src="./images/alpanna_logo_xsmall_bg.png" alt="logo"  height="auto" />
   <br/>
 
-  <h1><b>Portfolio</b></h1>
+  # <h1><b> Portfolio </b></h1>
 
 </div>
 
