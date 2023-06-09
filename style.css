@@ -325,7 +325,7 @@ a:hover {
   justify-content: center;
   width: 90vw;
   height: 90vh;
-  margin: auto;
+  margin: 0;
   padding: 0;
   border-bottom: #f3f3f3 1px solid;
 }
@@ -338,17 +338,42 @@ a:hover {
   margin: 0;
   padding: 0;
 }
-.itemA h2 {
-  font-size: 10vw;
-  font-weight: 600;
-  
+
+.flexaligned {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.itemA .d {
-  height: 1%;
-  width: 1%;
+.flexaligned h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.itemA ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  width: 90%;
+}
+.itemA li{
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.d {
+  height: 6vw;
+  width: 6vw;
   background-color: #FF6B00;
   transform: rotate(-45deg);
+  margin: 5%;
+  padding: 0;
+}
+
+.s {
+  transform: none;
 }
 
 .itemA p {
@@ -367,7 +392,7 @@ a:hover {
   font-size: 1.17em;
   width: 50%;
   font-weight: 700;
-  padding: 0.7em 0.7em  ;
+  padding: 0.7em 0.7em;
   margin: 5% 0;
 }
 
