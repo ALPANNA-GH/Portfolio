@@ -338,17 +338,8 @@ a:hover {
   height: 90vh;
   width: 90vw;
   height: 150vh;
-  margin: 10vh auto;
+  margin: 0;
   padding: 0;
-}
-
-.listcontainer {
-  position: relative;
-  width: 70%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .itemA h1 {
@@ -369,25 +360,16 @@ a:hover {
 }
 
 .flexaligned h2 {
-  font-size: 2.5rem;
+  font-size: 2ch;
   font-weight: 600;
-  text-align: left;
   margin: 0;
   padding: 0;
-}
-
-.itemA ul {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  list-style: none;
 }
 
 .itemA li{
   font-size: 1.5rem;
   line-height: 3rem;
-  text-align: center;
 }
 
 .d {
