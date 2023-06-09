@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -298,24 +299,24 @@ a:hover {
 .aboutme {
   display: grid;
   width: 100vw;
-  margin: 0;
-  padding: 0;
   color: #f3f3f3;
   justify-content: center;
   text-align: center;
-  grid-template-columns: 95vw ;
-  grid-template-rows: repeat(2, max-content) ;
+  grid-template-columns: 1fr ;
+  grid-template-rows: repeat(3, max-content) ;
+  padding: 0;
+  margin: 0;
 }
 
 .aboutMain {
-  position: relative;
   width: 100vw;
-  margin: 0;
+  height: 90vh;
   padding: 0;
+  margin: 0;
   background-image: url('./images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 45%;
+  background-size: 40vw;
 }
 
 .itemA {
@@ -323,16 +324,37 @@ a:hover {
   font-family: 'Inter', sans-serif;
   flex-direction: column;
   justify-content: center;
-  width: 90vw;
+}
+
+.master {
   height: 90vh;
-  margin: 0;
-  padding: 0;
+  width: 90vw;
+  margin: auto;
+  padding: auto;
   border-bottom: #f3f3f3 1px solid;
+}
+
+.lists {
+  height: 90vh;
+  width: 90vw;
+  height: 150vh;
+  margin: 10vh auto;
+  padding: 0;
+}
+
+.listcontainer {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .itemA h1 {
   font-family: 'Crete Round', serif;
-  font-size: 20vw;
+  font-size: 7ch;
+  text-align: left;
   font-weight: 400;
   color: #ff6b00;
   margin: 0;
@@ -341,39 +363,48 @@ a:hover {
 
 .flexaligned {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .flexaligned h2 {
   font-size: 2.5rem;
   font-weight: 600;
+  text-align: left;
   margin: 0;
   padding: 0;
 }
+
 .itemA ul {
+  width: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   list-style: none;
-  width: 90%;
 }
+
 .itemA li{
   font-size: 1.5rem;
   line-height: 3rem;
+  text-align: center;
 }
 
 .d {
-  height: 6vw;
-  width: 6vw;
+  height: 1ch;
+  width: 1ch;
   background-color: #FF6B00;
   transform: rotate(-45deg);
-  margin: 5%;
+  margin: 1ch;
   padding: 0;
 }
 
 .s {
   transform: none;
+}
+
+.c {
+  border-radius: 50%;
 }
 
 .itemA p {
