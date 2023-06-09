@@ -10,7 +10,6 @@ body {
   min-height: max-content;
   width: 100vw;
   background-color: #1c1a19;
-  /* overflow: hidden; */
   margin: 0;
   padding: 0;
   color: #fff;
@@ -140,13 +139,12 @@ a:hover {
   order: 1;
   margin: auto;
   width: 90vw;
-  height: auto;
   -webkit-box-flex: 2;
   -ms-flex: 2;
   flex: 2;
 }
 
-.mainh1 {
+.bodyTxt h1 {
   font-family: 'Crete Round', serif;
   font-size: 15vw;
   font-weight: 400;
@@ -301,11 +299,76 @@ a:hover {
   display: grid;
   width: 100vw;
   margin: 0;
-  color: #f3f3f3;
   padding: 0;
+  color: #f3f3f3;
+  justify-content: center;
+  text-align: center;
   grid-template-columns: 95vw ;
   grid-template-rows: repeat(2, max-content) ;
+}
+
+.aboutMain {
+  position: relative;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/illustration-about-me-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 45%;
+}
+
+.itemA {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  flex-direction: column;
   justify-content: center;
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+  padding: 0;
+  border-bottom: #f3f3f3 1px solid;
+}
+
+.itemA h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 20vw;
+  font-weight: 400;
+  color: #ff6b00;
+  margin: 0;
+  padding: 0;
+}
+.itemA h2 {
+  font-size: 10vw;
+  font-weight: 600;
+  
+}
+
+.itemA .d {
+  height: 1%;
+  width: 1%;
+  background-color: #FF6B00;
+  transform: rotate(-45deg);
+}
+
+.itemA p {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.7em;
+  padding: 0;
+  margin: 3% auto;
+}
+
+.itemA button {
+  background: #FF6B00;
+  color: #f3f3f3;
+  border: none;
+  font-size: 1.17em;
+  width: 50%;
+  font-weight: 700;
+  padding: 0.7em 0.7em  ;
+  margin: 5% 0;
 }
 
 /* media width 375px or more */
