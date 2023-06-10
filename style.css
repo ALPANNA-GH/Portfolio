@@ -185,6 +185,17 @@ a:hover {
   width: 100%;
 }
 
+button:hover, 
+input[type="button"]:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+button:disabled, 
+input[type="button"]:disabled {
+  background: #f4f1f0;
+}
+
 .maintitle {
   margin: 25% auto;
   padding: 0;
