@@ -310,11 +310,6 @@ input[type="button"]:disabled {
   margin: 5% 0;
 }
 
-/* .item button:hover {
-  border: #87ceeb 1px solid;
-  color: #f3f3f3;
-} */
-
 /* aboutme section */
 .aboutme {
   display: grid;
