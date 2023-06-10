@@ -12,7 +12,6 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  overflow-x: hidden;
 }
 
 .logo {
@@ -171,11 +170,10 @@ a:hover {
   width: 100vw;
   margin: 0;
   color: #212121;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 0;
   grid-template-columns: 95vw;
   grid-template-rows: repeat(7, max-content);
-  border: #f3f3f3 solid 1px;
   justify-content: center;
 }
 
@@ -270,9 +268,9 @@ a:hover {
 }
 
 .bgmask div {
-  padding: 20% 0 0 3%;
+  padding-left: 7%;
   margin: 0;
-  width: 100%;
+  width: 90%;
   background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
 }
 
@@ -339,7 +337,7 @@ a:hover {
   height: 90vh;
   width: 90vw;
   height: 150vh;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -366,6 +364,11 @@ a:hover {
   margin: 0;
   padding: 0;
   justify-content: center;
+}
+
+.itemA ul {
+  margin: auto;
+  padding: 0;
 }
 
 .itemA li {
@@ -419,7 +422,6 @@ a:hover {
   color: #212121;
   width: 100vw;
   margin: 5ch auto;
-  padding: 0;
   height: 135vh;
   background-color: #ffffff;
 }
@@ -468,9 +470,15 @@ a:hover {
   margin-bottom: 2em;
 }
 
+.footersocial {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 .footersocial ul {
   justify-content: center;
-
 }
 
 .footersocial li img {
@@ -563,5 +571,21 @@ a:hover {
     width: 60%;
     font-size: 1.5vw;
     margin: 0;
+  }
+
+  .aboutMain {
+    background-size: 35%;
+  }
+
+  .item p, 
+  .itemA p {
+    width: 60%;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  .footersocial .social {
+    flex-direction: row;
+    justify-content: center;
   }
 }
