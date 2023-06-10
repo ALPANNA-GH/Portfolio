@@ -422,7 +422,7 @@ a:hover {
   width: 100vw;
   margin: 5ch auto;
   margin-bottom: 0;
-  height: 130vh;
+  height: 140vh;
   background-color: #ffffff;
 }
 
@@ -431,8 +431,9 @@ a:hover {
   margin: auto;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  font-size: 2rem;
+  font-size: 1.99rem;
   font-weight: 700;
+  color: #3e3c3c;
 }
 
 .inp {
@@ -467,7 +468,7 @@ a:hover {
   font-size: 1.17em;
   font-weight: 700;
   padding: 1em 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .footersocial {
