@@ -3,7 +3,7 @@
 <div align="center">
   <img src="./images/alpanna_logo_xsmall_bg.png" alt="logo"  height="auto" />
   <br/>
-    <h1 style="font-size: 60px; font-weight: 700;"><b> Portfolio </b></h1>
+    <h1 style="font-size: 60px; font-weight: 900;"><b> Portfolio </b></h1>
 </div>
 
 ## 📗 Table of Contents
@@ -44,49 +44,49 @@ show your skills, experience, tools, and projects
 <details>
   <summary>HTML</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/html/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/html5.png" > </a></li>
+    <li><a href="https://www.w3schools.com/html/"><img Height="75px" src="https://alpanna-gh.github.io/Portfolio/images/html5.png" > </a></li>
   </ul>
 </details>
 
 <details>
   <summary>CSS</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/CSS/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/css3.png" ></a></li>
+    <li><a href="https://www.w3schools.com/CSS/"><img Height="75px" src="https://alpanna-gh.github.io/Portfolio/images/css3.png" ></a></li>
   </ul>
 </details>
 
 <details>
 <summary>JavaScript</summary>
   <ul>
-    <li><a href="https://www.javascript.com/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/Js.png" ></a></li>
+    <li><a href="https://www.javascript.com/"><img height="75px" src="https://alpanna-gh.github.io/Portfolio/images/Js.png" ></a></li>
   </ul>
 </details>
 
 <details>
 <summary>NodeJs</summary>
   <ul>
-    <li><a href="https://nodejs.org/en"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/Nodejs.png" ></a></li>
+    <li><a href="https://nodejs.org/en"><img height="75px" src="https://alpanna-gh.github.io/Portfolio/images/Nodejs.png" ></a></li>
   </ul>
 </details>
 
 <details>
 <summary>GitHub</summary>
   <ul>
-    <li><a href="https://github.com/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/github.png" ></a></li>
+    <li><a href="https://github.com/"><img height="75px" src="https://alpanna-gh.github.io/Portfolio/images/github.png" ></a></li>
   </ul>
 </details>
 
 <details>
 <summary>GitHub-WorkFlows</summary>
   <ul>
-    <li><a href="https://docs.github.com/en/actions/using-workflows"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/github-wf.png" ></a></li>
+    <li><a href="https://docs.github.com/en/actions/using-workflows"><img height="75px" src="https://alpanna-gh.github.io/Portfolio/images/github-wf.png" ></a></li>
   </ul>
 </details>
 
 <details>
 <summary>ESLint</summary>
   <ul>
-    <li><a href="https://eslint.org/"><img width="75px" src="https://alpanna-gh.github.io/Portfolio/images/eslint.png" ></a></li>
+    <li><a href="https://eslint.org/"><img height="75px" src="https://alpanna-gh.github.io/Portfolio/images/eslint.png" ></a></li>
   </ul>
 </details>
 
