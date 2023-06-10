@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
@@ -174,14 +173,14 @@ a:hover {
   color: #212121;
   background-color: #fff;
   padding: 0;
-  grid-template-columns: 95vw ;
-  grid-template-rows: repeat(7, max-content) ;
+  grid-template-columns: 95vw;
+  grid-template-rows: repeat(7, max-content);
   border: #f3f3f3 solid 1px;
   justify-content: center;
 }
 
 .mywork div {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -196,7 +195,7 @@ a:hover {
   font-size: 5.5vh;
   font-weight: 400;
   line-height: 15vh;
-  border-bottom: 1px solid #212121  ;
+  border-bottom: 1px solid #212121;
 }
 
 .secondry {
@@ -237,12 +236,12 @@ a:hover {
 }
 
 .item a {
-  color: #000 ;
+  color: #000;
   font-size: 1.1em;
   font-weight: 500;
   border: #8993a4 1px solid;
   text-decoration: none;
-  padding: 0.5em 0.5em  ;
+  padding: 0.5em 0.5em;
 }
 
 .item a:hover {
@@ -257,7 +256,7 @@ a:hover {
   width: 40%;
   font-size: 1.17em;
   font-weight: 700;
-  padding: 0.7em 0.7em  ;
+  padding: 0.7em 0.7em;
 }
 
 .bgmask {
@@ -270,7 +269,7 @@ a:hover {
   border: none;
 }
 
-.bgmask div{
+.bgmask div {
   padding: 20% 0 0 3%;
   margin: 0;
   width: 100%;
@@ -302,8 +301,8 @@ a:hover {
   color: #f3f3f3;
   justify-content: center;
   text-align: center;
-  grid-template-columns: 1fr ;
-  grid-template-rows: repeat(3, max-content) ;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, max-content);
   padding: 0;
   margin: 0;
 }
@@ -369,7 +368,7 @@ a:hover {
   justify-content: center;
 }
 
-.itemA li{
+.itemA li {
   font-size: 1.5rem;
   line-height: 3rem;
 }
@@ -421,7 +420,7 @@ a:hover {
   width: 100vw;
   margin: 5ch auto;
   padding: 0;
-  height: 100vh;
+  height: 135vh;
   background-color: #ffffff;
 }
 
@@ -448,14 +447,37 @@ a:hover {
 .txtar {
   display: block;
   width: 80%;
-  height: 25vh;
+  height: 20vh;
   margin: 5vh auto;
   border: none;
-  resize: vertical;
-  background-color: #fbf8f7;
+  resize: both;
   overflow: auto;
+  padding: 1em;
+  background-color: #fbf8f7;
   text-align: start;
 }
+
+.submitbtn {
+  background: #FF6B00;
+  color: #f3f3f3;
+  border: none;
+  width: 40%;
+  font-size: 1.17em;
+  font-weight: 700;
+  padding: 1em 1em;
+  margin-bottom: 2em;
+}
+
+.footersocial ul {
+  justify-content: center;
+
+}
+
+.footersocial li img {
+  filter: invert(100%);
+}
+
+
 
 /* media width 375px or more */
 @media all and (min-width: 375px) {
