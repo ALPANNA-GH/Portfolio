@@ -334,7 +334,6 @@ a:hover {
 
 .lists {
   grid: 2 / 1;
-  height: 90vh;
   width: 90vw;
   height: 150vh;
   margin: auto;
@@ -422,6 +421,7 @@ a:hover {
   color: #212121;
   width: 100vw;
   margin: 5ch auto;
+  margin-bottom: 0;
   height: 130vh;
   background-color: #ffffff;
 }
@@ -473,12 +473,14 @@ a:hover {
 .footersocial {
   display: flex;
   width: 100%;
-  margin: 0 auto;
+  margin: 5vh auto;
   padding: 0 auto;
 }
 
 .footersocial ul {
   justify-content: center;
+  border-top: #dfe1e6 1px solid;
+  padding-top: 1em ;
 }
 
 .footersocial li img {
