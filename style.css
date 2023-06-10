@@ -415,14 +415,14 @@ a:hover {
 
 /*  message part of the about */
 .msg {
-  grid: 3/1;
+  grid-area: 3/1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #212121;
   width: 100vw;
   margin: 5ch auto;
-  height: 135vh;
+  height: 130vh;
   background-color: #ffffff;
 }
 
@@ -577,7 +577,7 @@ a:hover {
     background-size: 35%;
   }
 
-  .item p, 
+  .item p,
   .itemA p {
     width: 60%;
     font-size: 1.5em;
