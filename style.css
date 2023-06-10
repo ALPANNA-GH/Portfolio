@@ -185,13 +185,14 @@ a:hover {
   width: 100%;
 }
 
-button:hover, 
-input[type="button"]:hover {
+.butn:hover,
+input[type="submit"]:hover {
+  color: #f55800;
   background-color: #fff5e1;
   border: 1px solid #f55800;
 }
 
-button:disabled, 
+.butn:disabled, 
 input[type="button"]:disabled {
   background: #f4f1f0;
 }
@@ -309,10 +310,10 @@ input[type="button"]:disabled {
   margin: 5% 0;
 }
 
-.item button:hover {
+/* .item button:hover {
   border: #87ceeb 1px solid;
   color: #f3f3f3;
-}
+} */
 
 /* aboutme section */
 .aboutme {
