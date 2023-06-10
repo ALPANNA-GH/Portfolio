@@ -192,7 +192,7 @@ input[type="submit"]:hover {
   border: 1px solid #f55800;
 }
 
-.butn:disabled, 
+.butn:disabled,
 input[type="button"]:disabled {
   background: #f4f1f0;
 }
