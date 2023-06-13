@@ -439,6 +439,9 @@ input[type="button"]:disabled {
 
 .msg fieldset {
   border: none;
+  width: 98vw;
+  margin: 0;
+  padding: 0;
 }
 
 .msg p {
@@ -605,3 +608,4 @@ input[type="button"]:disabled {
     justify-content: center;
   }
 }
+
