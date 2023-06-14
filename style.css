@@ -186,7 +186,7 @@ a:hover {
 }
 
 .butn:hover,
-input[type="submit"]:hover,
+input[type="button"]:hover,
 input[type="submit"]:hover {
   color: #f55800;
   background-color: #fff5e1;
