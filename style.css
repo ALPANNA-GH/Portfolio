@@ -450,7 +450,7 @@ input[type="submit"]:active {
 
 .msg p {
   width: 90%;
-  margin: auto;
+  margin: 3vh auto;
   padding: 0;
   font-family: "Inter", sans-serif;
   font-size: 1.99rem;
