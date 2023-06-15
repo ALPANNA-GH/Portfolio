@@ -198,7 +198,7 @@ input[type="button"]:disabled {
 }
 
 .maintitle {
-  margin: 25% auto;
+  margin: 20% auto 0;
   padding: 0;
   width: 100%;
   text-align: center;
@@ -206,7 +206,11 @@ input[type="button"]:disabled {
   font-size: 5.5vh;
   font-weight: 400;
   line-height: 15vh;
-  border-bottom: 1px solid #212121;
+}
+
+.seperator {
+  width: 90%;
+  margin: 0  auto 20%;
 }
 
 .secondry {
