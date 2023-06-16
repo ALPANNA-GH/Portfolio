@@ -590,28 +590,61 @@ input[type="button"]:disabled {
     background-size: 35%;
   }
 
+  .master {
+    width: 80%;
+    text-align: left;
+  }
+
+  .master p {
+    margin: 2vmax 0;
+    font-size: 2vmax;
+    width: 70%;
+  }
+
+  .buttn {
+    width: 30px;
+  }
+
+  .lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .lists ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    margin: 20vh auto;
+    padding: 0;
+  }
+
   .mywork {
-    /* width: 90%; */
-    margin: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
-    gap: 5px;
+    gap: 10px;
   }
 
-  .fullrow1 {
-    grid-area: 1/1/2/50%;
+  .recent-work {
+    grid-area: 1/1/2/4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
-  .fullrow2 {
-    grid-area: 1/1/2/ span 1.5;
+  .recent-work div {
+    flex: 1;
   }
 
-  .fullrow1 div {
-    width: 40%;
+  .butn[type="button"] {
+    display: none;
   }
 
-  .fullrow2 {
+  .multi-post {
     grid-area: 2/1/3/4;
     display: flex;
     flex-direction: row;
@@ -619,12 +652,11 @@ input[type="button"]:disabled {
     justify-content: space-around;
   }
 
-  .fullrow2 div {
+  .multi-post div {
     width: 40%;
   }
 
-  .item p,
-  .itemA p {
+  .item p {
     width: 80%;
     font-size: 1em;
     margin: 2% 2%;
