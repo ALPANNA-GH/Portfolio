@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
   min-height: -webkit-max-content;
@@ -30,7 +30,7 @@ body {
 
 .logo p {
   color: #fff;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -72,7 +72,7 @@ li img {
 a {
   color: #f3f3f3;
   opacity: 0.8;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   text-decoration: none;
 }
@@ -95,7 +95,7 @@ a:hover {
   flex-direction: column;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  background-image: url('./images/Illustration-header.svg');
+  background-image: url("./images/Illustration-header.svg");
   background-position: 25vh 85vw;
   background-repeat: no-repeat;
   background-size: 100vw;
@@ -145,7 +145,7 @@ a:hover {
 }
 
 .bodyTxt h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 15vw;
   font-weight: 400;
   color: #ff6b00;
@@ -154,12 +154,12 @@ a:hover {
 
 .bodyTxt h3 {
   font-size: 7vw;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
 .bodyTxt p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 5vw;
   font-weight: 400;
   margin: 0;
@@ -202,7 +202,7 @@ input[type="button"]:disabled {
   padding: 0;
   width: 100%;
   text-align: center;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 5.5vh;
   font-weight: 400;
   line-height: 15vh;
@@ -214,7 +214,7 @@ input[type="button"]:disabled {
 }
 
 .secondry {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 4.5vh;
   font-weight: 400;
   margin: 5% 0;
@@ -222,7 +222,7 @@ input[type="button"]:disabled {
 
 .item {
   display: flex;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   flex-direction: column;
   justify-content: space-around;
   width: 95%;
@@ -283,7 +283,7 @@ input[type="button"]:disabled {
 }
 
 .bgmask {
-  background-image: url('./images/bgPlaceholder.svg');
+  background-image: url("./images/bgPlaceholder.svg");
   background-size: cover;
   color: #f3f3f3;
   width: 95%;
@@ -296,7 +296,11 @@ input[type="button"]:disabled {
   padding-left: 7%;
   margin: 0;
   width: 90%;
-  background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  background-color: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  );
 }
 
 .bgmask button {
@@ -333,7 +337,7 @@ input[type="button"]:disabled {
   height: 90vh;
   padding: 0;
   margin: 0;
-  background-image: url('./images/illustration-about-me-mobile.svg');
+  background-image: url("./images/illustration-about-me-mobile.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 40vw;
@@ -341,7 +345,7 @@ input[type="button"]:disabled {
 
 .itemA {
   display: flex;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   flex-direction: column;
   justify-content: center;
 }
@@ -363,7 +367,7 @@ input[type="button"]:disabled {
 }
 
 .itemA h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 7ch;
   text-align: left;
   font-weight: 400;
@@ -441,7 +445,7 @@ input[type="button"]:disabled {
   width: 90%;
   margin: auto;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.99rem;
   font-weight: 700;
   color: #3e3c3c;
@@ -512,7 +516,6 @@ input[type="button"]:disabled {
 
 /* media width 768px or more */
 @media all and (min-width: 768px) {
-
   .header {
     height: 5vw;
   }
