@@ -210,7 +210,7 @@ input[type="button"]:disabled {
 
 .seperator {
   width: 90%;
-  margin: 0  auto 20%;
+  margin: 3% auto 20%;
 }
 
 .secondry {
@@ -512,6 +512,7 @@ input[type="button"]:disabled {
 
 /* media width 768px or more */
 @media all and (min-width: 768px) {
+
   .header {
     height: 5vw;
   }
@@ -589,10 +590,31 @@ input[type="button"]:disabled {
     background-size: 35%;
   }
 
+  .mywork {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+  }
+
+  .fullrow1 {
+    display: flex;
+    grid-area: 1/1/2/4;
+    margin: 0;
+    padding: 0;
+  }
+  .fullrow1 * {
+    width: 40%;
+  }
+
+  .fullrow2 {
+    grid-area: 2/1/3/4;
+  }
+
   .item p,
   .itemA p {
-    width: 60%;
-    font-size: 1.5em;
+    width: 80%;
+    font-size: 1em;
     margin: 2% 2%;
   }
 
