@@ -304,11 +304,9 @@ input[type="submit"]:active {
   padding-left: 7%;
   margin: 0;
   width: 90%;
-  background-color: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  );
+  background-color: linear-gradient(180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%);
 }
 
 .bgmask button {
@@ -435,7 +433,7 @@ input[type="submit"]:active {
   margin: 3% auto;
 }
 
-/*  Contact form */
+/*  message part of the about */
 .msg {
   grid-area: 3/1;
   display: flex;
@@ -449,16 +447,9 @@ input[type="submit"]:active {
   background-color: #fff;
 }
 
-.msg fieldset {
-  border: none;
-  width: 98vw;
-  margin: 0;
-  padding: 0;
-}
-
 .msg p {
   width: 90%;
-  margin: 3vh auto;
+  margin: auto;
   padding: 0;
   font-family: "Inter", sans-serif;
   font-size: 1.99rem;
