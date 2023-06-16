@@ -186,6 +186,7 @@ a:hover {
 }
 
 .butn:hover,
+input[type="button"]:hover,
 input[type="submit"]:hover {
   color: #f55800;
   background-color: #fff5e1;
@@ -193,8 +194,15 @@ input[type="submit"]:hover {
 }
 
 .butn:disabled,
-input[type="button"]:disabled {
-  background: #f4f1f0;
+input[type="button"]:disabled,
+input[type="submit"]:disabled {
+  background-color: #f4f1f0;
+}
+
+.butn:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  background-color: #e05304;
 }
 
 .maintitle {
@@ -427,7 +435,7 @@ input[type="button"]:disabled {
   margin: 3% auto;
 }
 
-/*  message part of the about */
+/*  Contact form */
 .msg {
   grid-area: 3/1;
   display: flex;
@@ -441,9 +449,16 @@ input[type="button"]:disabled {
   background-color: #fff;
 }
 
+.msg fieldset {
+  border: none;
+  width: 98vw;
+  margin: 0;
+  padding: 0;
+}
+
 .msg p {
   width: 90%;
-  margin: auto;
+  margin: 3vh auto;
   padding: 0;
   font-family: "Inter", sans-serif;
   font-size: 1.99rem;
