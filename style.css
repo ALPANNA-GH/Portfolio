@@ -63,7 +63,8 @@ body {
 .nav-mnu {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin: 10% auto;
 }
 
 .btn-tog {
@@ -532,6 +533,8 @@ input[type="submit"]:active {
 @media all and (min-width: 768px) {
   .nav-mnu {
     flex-direction: row;
+    margin: 2vh auto;
+    justify-content: center;
   }
 
   .btn-tog {
@@ -539,7 +542,7 @@ input[type="submit"]:active {
   }
 
   .btn-tog a {
-    font-size: 3vmin;
+    font-size: 2.5vh;
   }
 
   .btn {
@@ -713,13 +716,21 @@ input[type="submit"]:active {
 
   .msgform-container form{
     flex: 3;
-    border: none;
     text-align: left;
-    margin: auto;
+  }
+
+  .msgform-container form * {
+  margin-left: 5vw;
   }
 
   .footersocial .social {
     flex-direction: row;
     justify-content: center;
+  }
+
+  .footersocial .social img {
+    width: 3vw;
+    padding: 0;
+    margin: 0;
   }
 }
