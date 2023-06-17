@@ -197,6 +197,7 @@ a:hover {
 }
 
 .butn:hover,
+.buttn:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover {
   color: #f55800;
@@ -205,12 +206,14 @@ input[type="submit"]:hover {
 }
 
 .butn:disabled,
+.buttn:disabled,
 input[type="button"]:disabled,
 input[type="submit"]:disabled {
   background-color: #f4f1f0;
 }
 
 .butn:active,
+.buttn:active,
 input[type="button"]:active,
 input[type="submit"]:active {
   background-color: #e05304;
