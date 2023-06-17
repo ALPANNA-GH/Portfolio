@@ -680,17 +680,27 @@ input[type="submit"]:active {
   .recent-work, .multi-post, .mywork > div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     vertical-align: middle;
   }
 
-  .multi-post p {
-    font-size: 3vmin;
+  .recent-work * {
+    margin: auto 0;
+    padding: 1vw;
   }
 
-  .recent-work * {
-    margin: 0;
-    padding: 0;
+  .seperator {
+    height: 3px;
+    width: 60%;
+  }
+
+  .maintitle {
+    text-align: right;
+    width: 25%;
+  }
+
+  .multi-post p {
+    font-size: 4vmin;
   }
 
   .butn[type="button"] {
@@ -705,7 +715,8 @@ input[type="submit"]:active {
   }
 
   .multi-post div {
-    width: 40%;
+    margin: auto;
+    width: 45%;
   }
 
   .item p {
@@ -724,7 +735,7 @@ input[type="submit"]:active {
 
   .msgform-container p {
     flex: 2;
-    font-size: 7vmin;
+    font-size: 6vmin;
     border: 0;
     text-align: left;
     margin: auto;
