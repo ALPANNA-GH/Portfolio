@@ -71,6 +71,11 @@ body {
   display: none;
 }
 
+.btn {
+  display: inline;
+
+}
+
 li {
   margin: 1vh;
   list-style: none;
