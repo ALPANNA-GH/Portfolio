@@ -637,8 +637,8 @@ input[type="submit"]:active {
     width: 70%;
   }
 
-  .buttn {
-    width: 30px;
+  .buttn, .itemA button  {
+    width: 30%;
   }
 
   .lists {
@@ -667,14 +667,27 @@ input[type="submit"]:active {
   }
 
   .recent-work {
-    grid-area: 1/1/2/4;
+    grid-area: 1/2.1.4;
+    grid-column: 1/4;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 15vh 0;
+  }
+
+  .recent-work, .multi-post, .mywork > div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    vertical-align: middle;
   }
 
-  .recent-work div {
-    flex: 1;
+  .multi-post p {
+    font-size: 3vmin;
+  }
+
+  .recent-work * {
+    margin: 0;
+    padding: 0;
   }
 
   .butn[type="button"] {
