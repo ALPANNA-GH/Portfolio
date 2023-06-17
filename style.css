@@ -60,6 +60,16 @@ body {
   justify-content: right;
 }
 
+.nav-mnu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-tog {
+  display: none;
+}
+
 li {
   margin: 1vh;
   list-style: none;
@@ -520,6 +530,22 @@ input[type="submit"]:active {
 
 /* media width 768px or more */
 @media all and (min-width: 768px) {
+  .nav-mnu {
+    flex-direction: row;
+  }
+
+  .btn-tog {
+    display: inline-block;
+  }
+
+  .btn-tog a {
+    font-size: 3vmin;
+  }
+
+  .btn {
+    display: none;
+  }
+
   .header {
     height: 5vw;
   }
@@ -594,7 +620,7 @@ input[type="submit"]:active {
   }
 
   .aboutMain {
-    background-size: 35%;
+    background-size: 25%;
   }
 
   .master {
@@ -618,6 +644,7 @@ input[type="submit"]:active {
     justify-content: center;
     margin: 0 auto;
     padding: 0;
+    height: max-content;
   }
 
   .lists ul {
@@ -655,7 +682,6 @@ input[type="submit"]:active {
     grid-area: 2/1/3/4;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-around;
   }
 
@@ -667,6 +693,29 @@ input[type="submit"]:active {
     width: 80%;
     font-size: 1em;
     margin: 2% 2%;
+  }
+
+  .msgform-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+  }
+
+  .msgform-container p {
+    flex: 2;
+    font-size: 7vmin;
+    border: 0;
+    text-align: left;
+    margin: auto;
+  }
+
+  .msgform-container form{
+    flex: 3;
+    border: none;
+    text-align: left;
+    margin: auto;
   }
 
   .footersocial .social {
