@@ -534,6 +534,7 @@ input[type="submit"]:active {
 
 /* media width 768px or more */
 @media all and (min-width: 768px) {
+
   .nav-mnu {
     flex-direction: row;
     margin: 2vh auto;
@@ -640,7 +641,8 @@ input[type="submit"]:active {
     width: 70%;
   }
 
-  .buttn, .itemA button  {
+  .buttn,
+  .itemA button {
     width: 30%;
   }
 
@@ -677,7 +679,9 @@ input[type="submit"]:active {
     margin: 15vh 0;
   }
 
-  .recent-work, .multi-post, .mywork > div {
+  .recent-work,
+  .multi-post,
+  .mywork>div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -741,13 +745,13 @@ input[type="submit"]:active {
     margin: auto;
   }
 
-  .msgform-container form{
+  .msgform-container form {
     flex: 3;
     text-align: left;
   }
 
   .msgform-container form * {
-  margin-left: 5vw;
+    margin-left: 5vw;
   }
 
   .footersocial .social {
