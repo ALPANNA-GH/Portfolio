@@ -318,7 +318,8 @@ input[type="submit"]:active {
   padding-left: 7%;
   margin: 0;
   width: 90%;
-  background-color: linear-gradient(
+  background-color: 
+  linear-gradient(
     180.45deg,
     rgba(38, 38, 38, 0) 0.75%,
     rgba(38, 38, 38, 0.9) 61.94%
@@ -675,7 +676,7 @@ input[type="submit"]:active {
   }
 
   .recent-work {
-    grid-area: 1/2.1.4;
+    grid-row: 1/2;
     grid-column: 1/4;
     vertical-align: middle;
     justify-content: center;
