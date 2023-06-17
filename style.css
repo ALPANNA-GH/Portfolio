@@ -727,8 +727,17 @@ input[type="submit"]:active {
   }
 
   .multi-post div {
+    margin: 2%;
+  }
+
+  .mp-img {
     margin: auto;
-    width: 45%;
+    flex: 3;
+  }
+
+  .mp-txt {
+    margin: auto;
+    flex: 2;
   }
 
   .item p {
