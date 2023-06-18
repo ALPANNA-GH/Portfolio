@@ -691,7 +691,7 @@ input[type="submit"]:active {
 
   .recent-work,
   .multi-post,
-  .mywork>div {
+  .mywork > div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -736,7 +736,7 @@ input[type="submit"]:active {
     margin-left: 5%;
   }
 
-  .bgmask:hover div>.butn {
+  .bgmask:hover div > .butn {
     display: block;
   }
 
