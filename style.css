@@ -200,6 +200,12 @@ a:hover {
   width: 100%;
 }
 
+.butn {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .butn:hover,
 .buttn:hover,
 input[type="button"]:hover,
@@ -207,12 +213,6 @@ input[type="submit"]:hover {
   color: #f55800;
   background-color: #fff5e1;
   border: 1px solid #f55800;
-}
-
-.butn {
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .butn:disabled,
@@ -334,11 +334,12 @@ input[type="submit"]:active {
   padding-left: 7%;
   margin: 0;
   width: 90%;
-  background-color: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  );
+  background-color:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    );
 }
 
 .bgmask button {
@@ -693,6 +694,15 @@ input[type="submit"]:active {
     padding: 0 5%;
   }
 
+  .recent-work,
+  .multi-post,
+  .mywork > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
   .bgmask {
     height: 60vh;
   }
@@ -725,17 +735,8 @@ input[type="submit"]:active {
     visibility: hidden;
   }
 
-  .item:hover {
+  .item:hover :not(){
     background-image: url("./images/Imgholder.svg");
-  }
-
-  .recent-work,
-  .multi-post,
-  .mywork > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    vertical-align: middle;
   }
 
   .recent-work * {
@@ -748,13 +749,12 @@ input[type="submit"]:active {
     width: 60%;
   }
 
-  /* 
   .item div {
     width: 100%;
     margin: 0;
     padding: 0;
     justify-content: end;
-  } */
+  } 
 
   .item div :not(button, li) {
     margin-left: 5%;
