@@ -737,7 +737,7 @@ input[type="submit"]:active {
     margin-left: 5%;
   }
 
-  .item:hover :not() {
+  .item:hover :not(.multi-post, .recent-work) {
     background-image: url("./images/Imgholder.svg");
   }
 
