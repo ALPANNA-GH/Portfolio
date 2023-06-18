@@ -334,10 +334,7 @@ input[type="submit"]:active {
   padding-left: 7%;
   margin: 0;
   width: 90%;
-  background-color:
-    linear-gradient(180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%);
+  background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
 }
 
 .bgmask button {
@@ -694,7 +691,7 @@ input[type="submit"]:active {
 
   .recent-work,
   .multi-post,
-  .mywork>div {
+  .mywork > div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -713,7 +710,7 @@ input[type="submit"]:active {
   }
 
   .bgmask,
-  .bgmask>div:hover {
+  .bgmask > div:hover {
     background-color: rgb(255, 255, 255, 0.1);
   }
 
@@ -736,7 +733,7 @@ input[type="submit"]:active {
     background-image: url("./images/Imgholder.svg");
   }
 
-  .item:hover div>.butn {
+  .item:hover div > .butn {
     display: block;
   }
 
