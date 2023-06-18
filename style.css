@@ -691,7 +691,7 @@ input[type="submit"]:active {
 
   .recent-work,
   .multi-post,
-  .mywork > div {
+  .mywork>div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -713,9 +713,8 @@ input[type="submit"]:active {
     margin: 2%;
   }
 
-  .bgmask,
-  .bgmask > div:hover {
-    background-color: rgb(255, 255, 255, 0.1);
+  .bgmask:hover {
+    background-image: url("./images/Imgholder.svg");
   }
 
   .recent-work {
@@ -733,19 +732,15 @@ input[type="submit"]:active {
     justify-content: space-around;
   }
 
-  .item div :not(button, li) {
+  .bgmask div :not(button, li) {
     margin-left: 5%;
   }
 
-  .item:hover :not(.multi-post, .recent-work) {
-    background-image: url("./images/Imgholder.svg");
-  }
-
-  .item:hover div > .butn {
+  .bgmask:hover div>.butn {
     display: block;
   }
 
-  .item:hover div :not(.butn) {
+  .bgmask:hover div :not(.butn) {
     visibility: hidden;
   }
 
