@@ -19,7 +19,21 @@
     <!-- Navigation Bar -->
     <div class="nav">
       <nav>
-        <ul class=" ">
+        <ul class="nav-mnu">
+          <li class="btn-tog">
+            <a href="#">Portfolio</a>
+          </li>
+          <li class="btn-tog">
+            <a href="#">About</a>
+          </li>
+          <li class="btn-tog">
+            <a href="#">Contact</a>
+          </li>
+          <li class="btn-tog">
+            <a href="#">
+              <img src="./images/Icon-Mail.svg" alt="mail-icon" />
+            </a>
+          </li>
           <li class="btn">
             <a href="#">
               <img src="./images/Icon-Menu.svg" alt="menu-icon" /></a>
@@ -66,19 +80,15 @@
 
   <!-- My Work section -->
   <section class="mywork">
-     <div class="item recent-work">
-      <div>
+    <div class="item recent-work">
         <h2 class="maintitle">My Recent Work</h2>
-      </div>
-      <div> 
         <img class="seperator" src="./images/lineseperator.png" />
-      </div>
     </div>
     <div class="item multi-post">
-      <div>
+      <div class="mp-img">
         <img src="./images/placeholder.svg" alt="placeholder" />
       </div>
-      <div>
+      <div class="mp-txt">
         <h2 class="secondry">Multi-Post Stories</h2>
         <p>
           A daily selection of privately personalized reads;
@@ -87,6 +97,21 @@
         </p>
         <ul>
           <li><a href="#">CSS</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">Bootstrap</a></li>
+          <li><a href="#">Ruby</a></li>
+        </ul>
+        <button class="buttn" type="button">See project</button>
+      </div>
+    </div>
+    <div class="item bgmask">
+      <div>
+        <h2 class="secondry">Profesional Art Printing Data</h2>
+        <p>
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. Has been the industry's standard.
+        </p>
+        <ul>
           <li><a href="#">HTML</a></li>
           <li><a href="#">Bootstrap</a></li>
           <li><a href="#">Ruby</a></li>
@@ -106,8 +131,8 @@
           <li><a href="#">Bootstrap</a></li>
           <li><a href="#">Ruby</a></li>
         </ul>
+        <button class="butn" type="button">See project</button>
       </div>
-      <button class="butn" type="button">See project</button>
     </div>
     <div class="item bgmask">
       <div>
@@ -121,8 +146,8 @@
           <li><a href="#">Bootstrap</a></li>
           <li><a href="#">Ruby</a></li>
         </ul>
+        <button class="butn" type="button">See project</button>
       </div>
-      <button class="butn" type="button">See project</button>
     </div>
     <div class="item bgmask">
       <div>
@@ -136,8 +161,8 @@
           <li><a href="#">Bootstrap</a></li>
           <li><a href="#">Ruby</a></li>
         </ul>
+        <button class="butn" type="button">See project</button>
       </div>
-      <button class="butn" type="button">See project</button>
     </div>
     <div class="item bgmask">
       <div>
@@ -151,8 +176,8 @@
           <li><a href="#">Bootstrap</a></li>
           <li><a href="#">Ruby</a></li>
         </ul>
+        <button class="butn" type="button">See project</button>
       </div>
-      <button class="butn" type="button">See project</button>
     </div>
     <div class="item bgmask">
       <div>
@@ -166,23 +191,8 @@
           <li><a href="#">Bootstrap</a></li>
           <li><a href="#">Ruby</a></li>
         </ul>
+        <button class="butn" type="button">See project</button>
       </div>
-      <button class="butn" type="button">See project</button>
-    </div>
-    <div class="item bgmask">
-      <div>
-        <h2 class="secondry">Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. Has been the industry's standard.
-        </p>
-        <ul>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby</a></li>
-        </ul>
-      </div>
-      <button class="butn" type="button">See project</button>
     </div>
   </section>
 
@@ -222,8 +232,8 @@
         <li>Ruby on Rails</li>
         <li>RSpec</li>
         <li>Capybara</li>
-        </ul>
-        <ul>
+      </ul>
+      <ul>
         <li class="flexaligned">
           <div class="d s c"></div>
           <h2>Skills</h2>
@@ -235,18 +245,19 @@
       </ul>
     </div>
     <div class="msg">
-      <p>
-        I'm always interested in hearing about new projects, so if you'd like
-        to chat please get in touch.
-      </p>
-      <form id="msgform" method="post" action="https://formspree.io/f/myyarkey">
-        <fieldset>
+      <div class="msgform-container">
+        <p>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+        <form id="msgform" method="post" action="https://formspree.io/f/myyarkey">
           <input class="inp" type="text" name="fullname" placeholder="Full name" maxlength="30" required />
           <input class="inp" type="email" name="email" placeholder="Email address" required />
-          <textarea class="txtar" form="msgform" maxlength="500" placeholder="Write me something..." required></textarea>
-        </fieldset>
-        <input class="submitbtn" type="submit" value="Get in touch" />
-      </form>
+          <textarea class="txtar" form="msgform" maxlength="500" placeholder="Write me something..."
+            required></textarea>
+          <input class="submitbtn" type="submit" value="Get in touch" />
+        </form>
+      </div>
       <hr />
       <div class="footersocial">
         <ul class="social">
