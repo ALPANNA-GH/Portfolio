@@ -120,7 +120,9 @@ NO Prerequisites needed for this project
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository or download it
+`Code -> HTTPS -> copy link | download zip | open on GH disktop app`
+[Portfolio files URL link](https://github.com/ALPANNA-GH/portfolio/)
 
 ### Install
 
