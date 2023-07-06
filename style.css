@@ -341,7 +341,7 @@ input[type="submit"]:active {
   width: 100%;
 }
 
-.itemA button {
+.item-about button {
   background: #ff6b00;
   color: #f3f3f3;
   border: none;
@@ -377,7 +377,7 @@ input[type="submit"]:active {
   background-size: 40vw;
 }
 
-.itemA {
+.item-about {
   display: flex;
   font-family: "Inter", sans-serif;
   flex-direction: column;
@@ -400,7 +400,7 @@ input[type="submit"]:active {
   padding: 0;
 }
 
-.itemA h2 {
+.item-about h2 {
   font-family: "Crete Round", serif;
   font-size: 7ch;
   text-align: left;
@@ -426,12 +426,12 @@ input[type="submit"]:active {
   justify-content: center;
 }
 
-.itemA ul {
+.item-about ul {
   margin: auto;
   padding: 0;
 }
 
-.itemA li {
+.item-about li {
   font-size: 1.5rem;
   line-height: 3rem;
 }
@@ -453,7 +453,7 @@ input[type="submit"]:active {
   border-radius: 50%;
 }
 
-.itemA p {
+.item-about p {
   font-size: 1rem;
   font-weight: 300;
   text-align: left;
@@ -658,7 +658,7 @@ input[type="submit"]:active {
   }
 
   .buttn,
-  .itemA button {
+  .item-about button {
     width: 30%;
   }
 
