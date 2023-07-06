@@ -45,9 +45,10 @@ body {
   -ms-flex: 1;
   flex: 1;
   margin-right: 5vw;
+  padding-bottom: 1rem;
   background-color: #3e3c3c;
   width: 100%;
-  height: 15vw;
+  height: 10vw;
 }
 
 .nav {
@@ -254,7 +255,7 @@ input[type="submit"]:active {
 
 .item {
   display: flex;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   flex-direction: column;
   justify-content: space-around;
   width: 95%;
@@ -269,7 +270,7 @@ input[type="submit"]:active {
 }
 
 .item p {
-  font-size: large;
+  font-size: 1rem;
   padding: 0;
   margin: 1% 0;
 }
@@ -277,12 +278,18 @@ input[type="submit"]:active {
 .item ul {
   list-style: none;
   display: flex;
-  width: 90%;
+  width: 100%;
   flex-direction: row;
   padding: 0;
 }
 
 .item li {
+  justify-content: left;
+  margin: 3% 1% 3% 0;
+  padding: 0;
+}
+
+.mp-txt li {
   justify-content: left;
   margin: 3% 3% 3% 0;
   padding: 0;
@@ -327,28 +334,32 @@ input[type="submit"]:active {
   width: 95%;
   overflow: hidden;
   padding: 0;
+  padding-top: 20%;
   border: none;
 }
 
-.bgmask div {
-  padding-left: 7%;
+.bgmask > div {
   margin: 0;
-  width: 90%;
+  width: 100%;
   background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+}
+
+.bgmask div *:not(.butn, ul) {
+  padding-left: 1rem;
 }
 
 .bgmask button {
   width: 100%;
 }
 
-.itemA button {
+.item-about button {
   background: #ff6b00;
   color: #f3f3f3;
   border: none;
   font-size: 1.17em;
   width: 50%;
-  font-weight: 700;
-  padding: 0.7em 0.7em;
+  font-weight: 600;
+  padding: 0.5rem 0.5rem;
   margin: 5% 0;
 }
 
@@ -377,9 +388,9 @@ input[type="submit"]:active {
   background-size: 40vw;
 }
 
-.itemA {
+.item-about {
   display: flex;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   flex-direction: column;
   justify-content: center;
 }
@@ -395,12 +406,12 @@ input[type="submit"]:active {
 .lists {
   grid: 2 / 1;
   width: 90vw;
-  height: 150vh;
+  height: 140vh;
   margin: auto;
   padding: 0;
 }
 
-.itemA h2 {
+.item-about h2 {
   font-family: "Crete Round", serif;
   font-size: 7ch;
   text-align: left;
@@ -417,8 +428,9 @@ input[type="submit"]:active {
   padding: 0;
 }
 
-.flexaligned h2 {
-  font-size: 2ch;
+.flexaligned h3 {
+  font-size: 2.5rem;
+  line-height: 4rem;
   font-weight: 600;
   margin: 0;
   color: #fbf8f7;
@@ -426,12 +438,12 @@ input[type="submit"]:active {
   justify-content: center;
 }
 
-.itemA ul {
-  margin: auto;
-  padding: 0;
+.item-about ul {
+  margin: 0.5rem auto;
+  padding: 10px;
 }
 
-.itemA li {
+.item-about li {
   font-size: 1.5rem;
   line-height: 3rem;
 }
@@ -441,7 +453,7 @@ input[type="submit"]:active {
   width: 1ch;
   background-color: #ff6b00;
   transform: rotate(-45deg);
-  margin: 1ch;
+  margin: 1ch 1ch 1ch -2ch;
   padding: 0;
 }
 
@@ -453,7 +465,7 @@ input[type="submit"]:active {
   border-radius: 50%;
 }
 
-.itemA p {
+.item-about p {
   font-size: 1rem;
   font-weight: 300;
   text-align: left;
@@ -472,13 +484,13 @@ input[type="submit"]:active {
   width: 100vw;
   margin: 5ch auto;
   margin-bottom: 0;
-  height: 140vh;
+  height: 120vh;
   background-color: #fff;
 }
 
 .msg p {
   width: 90%;
-  margin: auto;
+  margin: 3rem auto;
   padding: 0;
   font-family: "Inter", sans-serif;
   font-size: 1.99rem;
@@ -517,7 +529,7 @@ input[type="submit"]:active {
   width: 40%;
   font-size: 1.17em;
   font-weight: 700;
-  padding: 1em 1em;
+  padding: 0.75em 1em;
   margin-bottom: 1em;
 }
 
@@ -658,7 +670,7 @@ input[type="submit"]:active {
   }
 
   .buttn,
-  .itemA button {
+  .item-about button {
     width: 30%;
   }
 

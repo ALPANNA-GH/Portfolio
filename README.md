@@ -152,7 +152,7 @@ No deployment required
 
 Ahmed Alpanna
 - GitHub: [@ALPANNA-GH](https://github.com/ALPANNA-GH)
-- Gmail: [@alpanna](mailto:alpanna@gmail.com)
+- Gmail: [alpanna@gmail.com](mailto:alpanna@gmail.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
