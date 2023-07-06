@@ -406,7 +406,7 @@ input[type="submit"]:active {
 .lists {
   grid: 2 / 1;
   width: 90vw;
-  height: 150vh;
+  height: 140vh;
   margin: auto;
   padding: 0;
 }
@@ -484,7 +484,7 @@ input[type="submit"]:active {
   width: 100vw;
   margin: 5ch auto;
   margin-bottom: 0;
-  height: 130vh;
+  height: 120vh;
   background-color: #fff;
 }
 
