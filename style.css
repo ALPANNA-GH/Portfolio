@@ -475,13 +475,13 @@ input[type="submit"]:active {
   width: 100vw;
   margin: 5ch auto;
   margin-bottom: 0;
-  height: 140vh;
+  height: 130vh;
   background-color: #fff;
 }
 
 .msg p {
   width: 90%;
-  margin: 2rem auto;
+  margin: 3rem auto;
   padding: 0;
   font-family: "Inter", sans-serif;
   font-size: 1.99rem;
