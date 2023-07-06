@@ -254,7 +254,7 @@ input[type="submit"]:active {
 
 .item {
   display: flex;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   flex-direction: column;
   justify-content: space-around;
   width: 95%;
@@ -269,7 +269,7 @@ input[type="submit"]:active {
 }
 
 .item p {
-  font-size: large;
+  font-size: 1rem;
   padding: 0;
   margin: 1% 0;
 }
@@ -284,7 +284,7 @@ input[type="submit"]:active {
 
 .item li {
   justify-content: left;
-  margin: 3% 3% 3% 0;
+  margin: 3% 0.5% 3% 0;
   padding: 0;
 }
 
@@ -327,10 +327,11 @@ input[type="submit"]:active {
   width: 95%;
   overflow: hidden;
   padding: 0;
+  padding-top: 20%;
   border: none;
 }
 
-.bgmask div {
+.bgmask>div {
   margin: 0;
   width: 100%;
   background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
@@ -350,8 +351,8 @@ input[type="submit"]:active {
   border: none;
   font-size: 1.17em;
   width: 50%;
-  font-weight: 700;
-  padding: 0.7em 0.7em;
+  font-weight: 600;
+  padding: 0.5rem 0.5rem;
   margin: 5% 0;
 }
 
@@ -382,7 +383,7 @@ input[type="submit"]:active {
 
 .item-about {
   display: flex;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   flex-direction: column;
   justify-content: center;
 }
@@ -398,7 +399,7 @@ input[type="submit"]:active {
 .lists {
   grid: 2 / 1;
   width: 90vw;
-  height: 140vh;
+  height: 150vh;
   margin: auto;
   padding: 0;
 }
@@ -420,8 +421,9 @@ input[type="submit"]:active {
   padding: 0;
 }
 
-.flexaligned h2 {
-  font-size: 2ch;
+.flexaligned h3 {
+  font-size: 2.5rem;
+  line-height: 4rem;
   font-weight: 600;
   margin: 0;
   color: #fbf8f7;
@@ -444,7 +446,7 @@ input[type="submit"]:active {
   width: 1ch;
   background-color: #ff6b00;
   transform: rotate(-45deg);
-  margin: 1ch;
+  margin: 1ch 1ch 1ch -2ch;
   padding: 0;
 }
 
