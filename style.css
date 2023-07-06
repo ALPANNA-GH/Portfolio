@@ -520,7 +520,7 @@ input[type="submit"]:active {
   width: 40%;
   font-size: 1.17em;
   font-weight: 700;
-  padding: 1em 1em;
+  padding: 0.75em 1em;
   margin-bottom: 1em;
 }
 
