@@ -398,7 +398,7 @@ input[type="submit"]:active {
 .lists {
   grid: 2 / 1;
   width: 90vw;
-  height: 135vh;
+  height: 140vh;
   margin: auto;
   padding: 0;
 }
@@ -430,8 +430,8 @@ input[type="submit"]:active {
 }
 
 .item-about ul {
-  margin: 10px auto;
-  padding: 0;
+  margin: 0.5rem auto;
+  padding: 10px;
 }
 
 .item-about li {
@@ -481,7 +481,7 @@ input[type="submit"]:active {
 
 .msg p {
   width: 90%;
-  margin: auto;
+  margin: 2rem auto;
   padding: 0;
   font-family: "Inter", sans-serif;
   font-size: 1.99rem;
