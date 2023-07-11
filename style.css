@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
@@ -181,7 +182,6 @@ a:hover {
   margin: 0;
 }
 
-/* /////////////////// 2nd mailstone /////////////////////// */
 .mywork {
   display: grid;
   width: 100vw;
@@ -363,7 +363,6 @@ input[type="submit"]:active {
   margin: 5% 0;
 }
 
-/* aboutme section */
 .aboutme {
   display: grid;
   width: 100vw;
@@ -705,7 +704,6 @@ input[type="submit"]:active {
   .multi-post,
   .mywork > div {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     vertical-align: middle;
   }
