@@ -604,7 +604,7 @@ input[type="submit"]:active {
     flex-direction: row;
     width: 100vw;
     background-position: 100% 100%;
-    background-size: 70vh;
+    background-size: 45%;
   }
 
   .social {
@@ -634,7 +634,6 @@ input[type="submit"]:active {
     -webkit-box-pack: left;
     -ms-flex-pack: left;
     justify-content: left;
-    width: 50%;
     margin: auto;
   }
 
@@ -648,7 +647,7 @@ input[type="submit"]:active {
   }
 
   .bodyTxt p {
-    width: 60%;
+    width: 50%;
     font-size: 1.5vw;
     margin: 0;
   }
@@ -704,8 +703,7 @@ input[type="submit"]:active {
   .multi-post,
   .mywork > div {
     display: flex;
-    justify-content: center;
-    vertical-align: middle;
+    flex-direction: row;
   }
 
   .bgmask {
@@ -756,18 +754,21 @@ input[type="submit"]:active {
 
   .recent-work * {
     margin: auto 0;
-    padding: 1vw;
+    padding: 1%;
   }
 
   .seperator {
     height: 3px;
     width: 60%;
+    grid: 1/2/1/4
   }
 
   .maintitle {
-    text-align: right;
-    width: 25%;
-  }
+    /* text-align: left; */
+    font-size: 1.7rem;
+grid: 1/1/1/1;
+width: 30%;
+ }
 
   .multi-post p {
     font-size: 4vmin;
