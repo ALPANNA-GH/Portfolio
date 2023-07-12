@@ -154,13 +154,6 @@ Ahmed Alpanna
 - GitHub: [@ALPANNA-GH](https://github.com/ALPANNA-GH)
 - Gmail: [alpanna@gmail.com](mailto:alpanna@gmail.com)
 
-
-👤 IsaMarvin
-
-- GitHub: [IsaMarvin](https://github.com/IsaMarvin)
-- LinkedIn: [IsaMarvin](https://www.linkedin.com/in/isamarvin/)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -177,7 +170,20 @@ Ahmed Alpanna
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+👤 **Contributors**
+
+> thanks for your effort, time and valuable contributions
+
+👤 IsaMarvin
+
+- GitHub: [IsaMarvin](https://github.com/IsaMarvin)
+- LinkedIn: [IsaMarvin](https://www.linkedin.com/in/isamarvin/)
+
+
+🔭 **Issues**
+
+> Feel free to check the 
+[issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
