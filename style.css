@@ -564,8 +564,7 @@ input[type="submit"]:active {
 @media all and (min-width: 768px) {
   .nav-mnu {
     flex-direction: row;
-    margin: 2vh auto;
-    justify-content: center;
+    margin: 2vh 5vw;
   }
 
   .btn-tog {
@@ -577,7 +576,7 @@ input[type="submit"]:active {
   }
 
   .btn-tog a {
-    font-size: 2.5vh;
+    font-size: 3vh;
   }
 
   .btn {
@@ -585,16 +584,11 @@ input[type="submit"]:active {
   }
 
   .header {
-    height: 5vw;
-  }
-
-  a img,
-  li img {
-    width: 25vh;
+    height: 4vw;
   }
 
   .nav img {
-    width: 3vw;
+    height: 1.5rem;
   }
 
   .main {
