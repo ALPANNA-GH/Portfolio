@@ -760,15 +760,15 @@ input[type="submit"]:active {
   .seperator {
     height: 3px;
     width: 60%;
-    grid: 1/2/1/4
+    grid: 1/2/1/4;
   }
 
   .maintitle {
     /* text-align: left; */
     font-size: 1.7rem;
-grid: 1/1/1/1;
-width: 30%;
- }
+    grid: 1/1/1/1;
+    width: 30%;
+  }
 
   .multi-post p {
     font-size: 4vmin;
