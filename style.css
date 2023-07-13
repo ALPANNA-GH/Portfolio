@@ -1,8 +1,7 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
   min-height: -webkit-max-content;
@@ -16,7 +15,8 @@ body {
   color: #fff;
 }
 
-* , * > * {
+*,
+* > * {
   user-select: none;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .logo p {
   color: #fff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -93,7 +93,7 @@ li img {
 a {
   color: #f3f3f3;
   opacity: 0.8;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   text-decoration: none;
 }
@@ -116,7 +116,7 @@ a:hover {
   flex-direction: column;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  background-image: url("./images/Illustration-header.svg");
+  background-image: url('./images/Illustration-header.svg');
   background-position: 25vh 85vw;
   background-repeat: no-repeat;
   background-size: 100vw;
@@ -166,7 +166,7 @@ a:hover {
 }
 
 .bodyTxt h1 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 15vw;
   font-weight: 400;
   color: #ff6b00;
@@ -175,12 +175,12 @@ a:hover {
 
 .bodyTxt h3 {
   font-size: 7vw;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
 .bodyTxt p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 5vw;
   font-weight: 400;
   margin: 0;
@@ -213,8 +213,8 @@ a:hover {
 
 .butn:hover,
 .buttn:hover,
-input[type="button"]:hover,
-input[type="submit"]:hover {
+input[type='button']:hover,
+input[type='submit']:hover {
   color: #f55800;
   background-color: #fff5e1;
   border: 1px solid #f55800;
@@ -224,15 +224,15 @@ input[type="submit"]:hover {
 
 .butn:disabled,
 .buttn:disabled,
-input[type="button"]:disabled,
-input[type="submit"]:disabled {
+input[type='button']:disabled,
+input[type='submit']:disabled {
   background-color: #f4f1f0;
 }
 
 .butn:active,
 .buttn:active,
-input[type="button"]:active,
-input[type="submit"]:active {
+input[type='button']:active,
+input[type='submit']:active {
   background-color: #e05304;
 }
 
@@ -241,7 +241,7 @@ input[type="submit"]:active {
   padding: 0;
   width: 100%;
   text-align: center;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 5.5vh;
   font-weight: 400;
   line-height: 15vh;
@@ -253,7 +253,7 @@ input[type="submit"]:active {
 }
 
 .secondry {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 4.5vh;
   font-weight: 400;
   margin: 5% 0;
@@ -261,7 +261,7 @@ input[type="submit"]:active {
 
 .item {
   display: flex;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   flex-direction: column;
   justify-content: space-around;
   width: 95%;
@@ -307,7 +307,7 @@ input[type="submit"]:active {
   font-weight: 500;
   border: #8993a4 1px solid;
   text-decoration: none;
-  padding: 0.5em 0.5em;;
+  padding: 0.5em 0.5em;
 }
 
 .bgmask a {
@@ -334,7 +334,7 @@ input[type="submit"]:active {
 }
 
 .bgmask {
-  background-image: url("./images/bgPlaceholder.svg");
+  background-image: url('./images/bgPlaceholder.svg');
   background-size: cover;
   color: #f3f3f3;
   width: 95%;
@@ -347,7 +347,11 @@ input[type="submit"]:active {
 .bgmask > div {
   margin: 0;
   width: 100%;
-  background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  background-color: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  );
 }
 
 .bgmask div *:not(.butn, ul) {
@@ -387,7 +391,7 @@ input[type="submit"]:active {
   height: 90vh;
   padding: 0;
   margin: 0;
-  background-image: url("./images/illustration-about-me-mobile.svg");
+  background-image: url('./images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 40vw;
@@ -395,7 +399,7 @@ input[type="submit"]:active {
 
 .item-about {
   display: flex;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   flex-direction: column;
   justify-content: center;
 }
@@ -417,7 +421,7 @@ input[type="submit"]:active {
 }
 
 .item-about h2 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 7ch;
   text-align: left;
   font-weight: 400;
@@ -498,7 +502,7 @@ input[type="submit"]:active {
   width: 90%;
   margin: 3rem auto;
   padding: 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.99rem;
   font-weight: 700;
   color: #3e3c3c;
@@ -587,8 +591,24 @@ input[type="submit"]:active {
   }
 
   /*  animation next line */
-  
-  
+  .btn-tog:hover > a {
+    -webkit-animation: blureffect 500ms;
+    animation: blureffect 500ms;
+  }
+
+  @keyframes blureffect {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
   .btn {
     display: none;
   }
@@ -629,7 +649,6 @@ input[type="submit"]:active {
   }
 
   /* animation code next line */
-
 
   .bodyTxt {
     -webkit-box-ordinal-group: 3;
@@ -710,7 +729,7 @@ input[type="submit"]:active {
 
   .bgmask {
     height: 60vh;
-    transition: all 1s ease ;
+    transition: all 1s ease;
   }
 
   .item div {
@@ -725,14 +744,14 @@ input[type="submit"]:active {
   }
 
   .bgmask:hover {
-    background-position:  center;
-    background-image: url("./images/Imgholder.svg");
+    background-position: center;
+    background-image: url('./images/Imgholder.svg');
     background-size: 150%;
   }
 
   .bgmask:hover > div {
     transform: rotateY(360deg);
-    transition: all 1s ease ;
+    transition: all 1s ease;
   }
 
   .recent-work {
@@ -748,15 +767,15 @@ input[type="submit"]:active {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    transition: all 1s ease ;
+    transition: all 1s ease;
   }
 
   .multi-post img {
-    transition: all 1s ease ;
+    transition: all 1s ease;
   }
 
   .multi-post:hover img {
-    box-shadow: 5px 5px 5px rgba(33, 33, 33, 0.5) ;
+    box-shadow: 5px 5px 5px rgba(33, 33, 33, 0.5);
     transform: rotate(-5deg);
     filter: hue-rotate(180deg);
   }
@@ -775,9 +794,10 @@ input[type="submit"]:active {
   }
 
   /* animation code next line */
-  button, .submitbtn {
+  button,
+  .submitbtn {
     transition: all 500ms ease;
-    }
+  }
 
   .bgmask:hover div :not(.butn) {
     visibility: hidden;
@@ -806,7 +826,7 @@ input[type="submit"]:active {
     font-size: 4vmin;
   }
 
-  .butn[type="button"] {
+  .butn[type='button'] {
     display: none;
   }
 
