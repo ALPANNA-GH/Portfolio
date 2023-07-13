@@ -571,7 +571,6 @@ input[type='submit']:active {
   }
 }
 
-/* media width 768px or more */
 @media all and (min-width: 768px) {
   .nav-mnu {
     flex-direction: row;
@@ -590,7 +589,6 @@ input[type='submit']:active {
     font-size: 3vh;
   }
 
-  /*  animation next line */
   .btn-tog:hover > a {
     -webkit-animation: blureffect 500ms;
     animation: blureffect 500ms;
@@ -630,7 +628,9 @@ input[type='submit']:active {
     background-position: 100% 100%;
     background-size: 45%;
   }
+  /* animation code next line */
 
+  
   .social {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -647,8 +647,6 @@ input[type='submit']:active {
     -ms-flex-order: 1;
     order: 1;
   }
-
-  /* animation code next line */
 
   .bodyTxt {
     -webkit-box-ordinal-group: 3;
