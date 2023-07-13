@@ -628,9 +628,15 @@ input[type='submit']:active {
     background-position: 100% 100%;
     background-size: 45%;
   }
-  /* animation code next line */
 
-  
+  .social li a:hover img {
+    -webkit-transform: rotateY(360deg);
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transform: rotateY(360deg);
+    transition: all 1s ease;
+  }
+
   .social {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
