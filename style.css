@@ -16,6 +16,10 @@ body {
   color: #fff;
 }
 
+* , * > * {
+  user-select: none;
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -470,6 +474,7 @@ input[type="submit"]:active {
   text-align: left;
   line-height: 1.7em;
   padding: 0;
+  /* width: 70%; */
   margin: 3% auto;
 }
 
@@ -650,11 +655,6 @@ input[type="submit"]:active {
     background-size: 25%;
   }
 
-  .master {
-    width: 80%;
-    text-align: left;
-  }
-
   .master p {
     margin: 2vmax 0;
     font-size: 2vmax;
@@ -716,7 +716,15 @@ input[type="submit"]:active {
   }
 
   .bgmask:hover {
+    background-position:  center;
     background-image: url("./images/Imgholder.svg");
+    background-size: 150%;
+    transition: all 1s ease ;
+  }
+
+  .bgmask:hover > div {
+    transform: rotateY(360deg);
+    transition: all 1s ease ;
   }
 
   .recent-work {
@@ -744,6 +752,7 @@ input[type="submit"]:active {
 
   .bgmask:hover div :not(.butn) {
     visibility: hidden;
+    transition: all 200ms ease;
   }
 
   .recent-work * {
