@@ -1,22 +1,29 @@
-let menueBtn = document.querySelector('#menueShow');
-let menueCancelBtn = document.querySelector('#menueCancle');
-let menueNavBar = document.querySelector('#navbar');
-let menueItem = document.querySelectorAll('.navitem');
+window.onload = function() {
+  const menueBtn = document.querySelector('#menueShow');
+  const menueCancelBtn = document.querySelector('#menueCancle');
+  const menueNavBar = document.querySelector('#navbar');
+  const menueItem = document.querySelectorAll('.navitem');
 
-function showMenue() {
-  // menueNavBar.classList.replace('nav', 'nav-open');
-  // menueItem.classList.toggle('btn-tog tog-open');
-  // menueBtn.classList.toggle('btn menue-open');
-  // menueCancelBtn.classList.toggle('menue-cancel menue-cancel-open');
-  alert('workings');
+  function showMenue() {
+    menueNavBar.classList.replace('nav', 'nav-open');
+    menueItem.forEach((elm) => {
+    elm.classList.replace('btn-tog', 'tog-open');
+    });
+    menueBtn.classList.replace('btn', 'menue-open');
+    menueCancelBtn.classList.replace('menue-cancel', 'menue-cancel-open');
+    // alert('workings');
+  }
+
+  function hideMenue() {
+    menueNavBar.classList.replace('nav-open', 'nav');
+    menueItem.forEach((elm) => {
+      elm.classList.replace('tog-open', 'btn-tog');
+      });   
+    menueBtn.classList.replace('menue-open', 'btn');
+    menueCancelBtn.classList.replace('menue-cancel-open', 'menue-cancel');
+  }
+
+  menueBtn.addEventListener("click", showMenue);
+  menueCancelBtn.addEventListener('click', hideMenue);
+  menueItem.addEventListener('click', hideMenue);
 }
-
-function hideMenue() {
-  menueNavBar.classList.replace('nav-open', 'nav');
-  menueItem.classList.toggle('btn-tog tog-open');
-  menueBtn.classList.toggle('btn menue-open');
-  menueCancelBtn.classList.toggle('menue-cancel menue-cancel-open');
-}
-
-menueBtn.addEventListener('click', showMenue);
-menueCancelBtn.addEventListener('click', hideMenue);
