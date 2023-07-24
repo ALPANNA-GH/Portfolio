@@ -1,13 +1,13 @@
-window.onload = function() {
+window.onload = function () {
   const menueBtn = document.querySelector('#menueShow');
   const menueCancelBtn = document.querySelector('#menueCancle');
   const menueNavBar = document.querySelector('#navbar');
   const menueItem = document.querySelectorAll('.navitem');
-  
+
   function showMenue() {
     menueNavBar.classList.replace('nav', 'nav-open');
     menueItem.forEach((elm) => {
-    elm.classList.replace('btn-tog', 'tog-open');
+      elm.classList.replace('btn-tog', 'tog-open');
     });
     menueBtn.classList.replace('btn', 'menue-open');
     menueCancelBtn.classList.replace('menue-cancel', 'menue-cancel-open');
@@ -27,4 +27,4 @@ window.onload = function() {
   menueItem.forEach((elmnt) => {
     elmnt.addEventListener('click', hideMenue);
   });
-}
+};
