@@ -76,7 +76,7 @@ li img {
 }
 
 a {
-  color: #FFF5E1;
+  color: #fff5e1;
   opacity: 0.8;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
@@ -388,7 +388,7 @@ input[type='submit']:active {
 }
 
 .aboutMain {
-  grid: 1 / 1;
+  grid-area: 1/1;
   width: 100vw;
   height: 90vh;
   padding: 0;
@@ -410,12 +410,12 @@ input[type='submit']:active {
   height: 90vh;
   width: 90vw;
   margin: auto;
-  padding: auto;
+  padding: 0;
   border-bottom: #f3f3f3 1px solid;
 }
 
 .lists {
-  grid: 2 / 1;
+  grid-area: 2/1;
   width: 90vw;
   height: 140vh;
   margin: auto;
@@ -548,7 +548,7 @@ input[type='submit']:active {
   display: flex;
   width: 100%;
   margin: 5vh auto;
-  padding: 0 auto;
+  padding: 0;
 }
 
 .footersocial ul {
@@ -590,7 +590,7 @@ input[type='submit']:active {
     font-size: 3vh;
   }
 
-  .btn-tog:hover>a {
+  .btn-tog:hover > a {
     animation: blureffect 500ms;
   }
 
@@ -761,7 +761,7 @@ input[type='submit']:active {
     background-size: 150%;
   }
 
-  .bgmask:hover>div {
+  .bgmask:hover > div {
     transform: rotateY(360deg);
     transition: all 1s ease;
   }
@@ -778,7 +778,7 @@ input[type='submit']:active {
     margin-left: 5%;
   }
 
-  .bgmask:hover div>.butn {
+  .bgmask:hover div > .butn {
     display: block;
   }
 
@@ -800,12 +800,12 @@ input[type='submit']:active {
   .seperator {
     height: 3px;
     width: 60%;
-    grid: 1/2/1/4;
+    grid-area: 1/2/1/4;
   }
 
   .maintitle {
     font-size: 1.7rem;
-    grid: 1/1/1/1;
+    grid-area: 1/1/1/1;
     width: 30%;
   }
 
