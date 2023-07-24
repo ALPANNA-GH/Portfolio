@@ -142,7 +142,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url('/images/Illustration-header.svg');
+  background-image: url('../images/Illustration-header.svg');
   background-position: 25vh 85vw;
   background-repeat: no-repeat;
   background-size: 100vw;
@@ -339,7 +339,7 @@ input[type='submit']:active {
 }
 
 .bgmask {
-  background-image: url('/images/bgPlaceholder.svg');
+  background-image: url('../images/bgPlaceholder.svg');
   background-size: cover;
   color: #f3f3f3;
   width: 95%;
@@ -392,7 +392,7 @@ input[type='submit']:active {
   height: 90vh;
   padding: 0;
   margin: 0;
-  background-image: url('/images/illustration-about-me-mobile.svg');
+  background-image: url('../images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 40vw;
@@ -760,7 +760,7 @@ input[type='submit']:active {
 
   .bgmask:hover {
     background-position: center;
-    background-image: url('/images/Imgholder.svg');
+    background-image: url('../images/Imgholder.svg');
     background-size: 150%;
   }
 
