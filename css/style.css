@@ -99,24 +99,7 @@ a:hover {
 }
 
 /* open menue */
-.nav-open {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-color: #3e3c3c;
-  padding: 1rem;
-  margin: 0;
-  z-index: 10;
-}
 
-.tog-open {
-  display: block;
-  width: 85%;
-  text-align: left;
-  line-height: 44px;
-  padding: 0 1rem;
-  border-bottom: 1px solid #6f6c6b;
-}
 
 .tog-open a {
   font-size: 32px;
