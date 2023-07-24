@@ -16,7 +16,7 @@ body {
 }
 
 *,
-* > * {
+*>* {
   user-select: none;
 }
 
@@ -74,16 +74,60 @@ body {
 }
 
 .btn-tog {
-  display: none;
+  /* display: none; */
 }
 
 .btn {
   display: inline;
 }
 
+.menue-cancel img {
+  width: 24px;
+  height: 24px;
+}
+
+/* open menue */
+.nav-open {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3e3c3c;
+  padding: 1rem;
+  margin: 0;
+  z-index: 10;
+}
+
+.tog-open {
+  display: block;
+  width: 85%;
+  text-align: left;
+  line-height: 44px;
+  padding: 0 1rem;
+  border-bottom: 1px solid #6F6C6B;
+}
+
+.tog-open a {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.btn-mail {
+  display: none;
+}
+
+.menue-cancel-open {
+  display: block;
+  width: 95%;
+  text-align: right;
+}
+
+.menue-open {
+  display: none;
+}
+/* end menue open */
+
 li {
   margin: 1vh;
-  list-style: none;
 }
 
 li img {
@@ -91,7 +135,7 @@ li img {
 }
 
 a {
-  color: #f3f3f3;
+  color: #FFF5E1;
   opacity: 0.8;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
@@ -107,8 +151,6 @@ a:hover {
 
 /* main body style */
 .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -124,8 +166,6 @@ a:hover {
 }
 
 .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -145,8 +185,6 @@ a:hover {
 }
 
 .bodyTxt {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -344,7 +382,7 @@ input[type='submit']:active {
   border: none;
 }
 
-.bgmask > div {
+.bgmask>div {
   margin: 0;
   width: 100%;
   background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
@@ -584,7 +622,7 @@ input[type='submit']:active {
     font-size: 3vh;
   }
 
-  .btn-tog:hover > a {
+  .btn-tog:hover>a {
     -webkit-animation: blureffect 500ms;
     animation: blureffect 500ms;
   }
@@ -751,7 +789,7 @@ input[type='submit']:active {
 
   .recent-work,
   .multi-post,
-  .mywork > div {
+  .mywork>div {
     display: flex;
     flex-direction: row;
   }
@@ -778,7 +816,7 @@ input[type='submit']:active {
     background-size: 150%;
   }
 
-  .bgmask:hover > div {
+  .bgmask:hover>div {
     transform: rotateY(360deg);
     transition: all 1s ease;
   }
@@ -795,7 +833,7 @@ input[type='submit']:active {
     margin-left: 5%;
   }
 
-  .bgmask:hover div > .butn {
+  .bgmask:hover div>.butn {
     display: block;
   }
 
