@@ -694,14 +694,8 @@ input[type='submit']:active {
   }
 
   .bodyTxt {
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
     order: 2;
-    -webkit-box-flex: 7;
-    -ms-flex: 7;
     flex: 7;
-    -webkit-box-pack: left;
-    -ms-flex-pack: left;
     justify-content: left;
     margin: auto;
   }
@@ -836,13 +830,13 @@ input[type='submit']:active {
   .seperator {
     height: 3px;
     width: 60%;
-    grid: 1/2/1/4;
+    grid-area: 1/2/1/4;
   }
 
   .maintitle {
     /* text-align: left; */
     font-size: 1.7rem;
-    grid: 1/1/1/1;
+    grid-area: 1/1/1/1;
     width: 30%;
   }
 
