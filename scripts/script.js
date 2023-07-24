@@ -1,20 +1,21 @@
-const menueBtn = document.querySelector('#menueShow');
-const menueCancelBtn = document.querySelector('#menueCancle');
-const menueNavBar = document.querySelector('#navbar');
-const menueItem = document.querySelectorAll('.btn-tog');
+let menueBtn = document.querySelector('#menueShow');
+let menueCancelBtn = document.querySelector('#menueCancle');
+let menueNavBar = document.querySelector('#navbar');
+let menueItem = document.querySelectorAll('.navitem');
 
 function showMenue() {
-  menueNavBar.classList.replace('nav', 'nav-open');
-  menueItem.classList.add('tog-open');
-  menueBtn.classList.toggle('menue-cancel menue-cancel-open');
-  menueCancelBtn.classList.toggle('btn menue-open');
+  // menueNavBar.classList.replace('nav', 'nav-open');
+  // menueItem.classList.toggle('btn-tog tog-open');
+  // menueBtn.classList.toggle('btn menue-open');
+  // menueCancelBtn.classList.toggle('menue-cancel menue-cancel-open');
+  alert('workings');
 }
 
 function hideMenue() {
   menueNavBar.classList.replace('nav-open', 'nav');
-  menueItem.classList.remove('tog-open');
-  menueBtn.classList.toggle('menue-cancel menue-cancel-open');
-  menueCancelBtn.classList.toggle('btn menue-open');
+  menueItem.classList.toggle('btn-tog tog-open');
+  menueBtn.classList.toggle('btn menue-open');
+  menueCancelBtn.classList.toggle('menue-cancel menue-cancel-open');
 }
 
 menueBtn.addEventListener('click', showMenue);
