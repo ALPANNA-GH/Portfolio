@@ -11,7 +11,6 @@ window.onload = function() {
     });
     menueBtn.classList.replace('btn', 'menue-open');
     menueCancelBtn.classList.replace('menue-cancel', 'menue-cancel-open');
-    // alert('workings');
   }
 
   function hideMenue() {
