@@ -102,7 +102,7 @@ show your skills, experience, tools, and projects
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> the link to the live portfolio.
+> The link to the live portfolio.
 
 - [Live Demo Link](https://alpanna-gh.github.io/Portfolio/)
 
@@ -111,11 +111,11 @@ show your skills, experience, tools, and projects
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describtion of how a new developer could make use of this project.
+> Description of how a new developer could make use of this project.
 
 ### Prerequisites
 
-NO Prerequisites needed for this project
+NO Prerequisites are needed for this project
 
 
 ### Setup
@@ -159,15 +159,17 @@ Ahmed Alpanna
 
 > thanks for your effort, time and valuable contributions
 
+
 👤 IsaMarvin
 
 - GitHub: [IsaMarvin](https://github.com/IsaMarvin)
 - LinkedIn: [IsaMarvin](https://www.linkedin.com/in/isamarvin/)
 
+
 👤 Umarah
 
-GitHub: [@umarahgul](https://github.com/umarahgul)
-LinkedIn: [umarahgul](https://www.linkedein.com/umarahgul)
+- GitHub: [@umarahgul](https://github.com/umarahgul)
+- LinkedIn: [umarahgul](https://www.linkedein.com/umarahgul)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
