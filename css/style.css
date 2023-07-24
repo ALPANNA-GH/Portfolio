@@ -137,8 +137,6 @@ a:hover {
   display: none;
 }
 
-/* end menue open */
-
 /* main body style */
 .main {
   display: flex;
@@ -602,7 +600,6 @@ input[type='submit']:active {
 
   @keyframes blureffect {
     0% {
-      -webkit-filter: blur(12px);
       filter: blur(12px);
       opacity: 0;
     }
