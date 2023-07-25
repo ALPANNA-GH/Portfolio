@@ -160,12 +160,10 @@ Ahmed Alpanna
 > thanks for your effort, time and valuable contributions
 
 👤 IsaMarvin
-
 - GitHub: [IsaMarvin](https://github.com/IsaMarvin)
 - LinkedIn: [IsaMarvin](https://www.linkedin.com/in/isamarvin/)
 
 👤 Umarah
-
 GitHub: [@umarahgul](https://github.com/umarahgul)
 LinkedIn: [umarahgul](https://www.linkedein.com/umarahgul)
 

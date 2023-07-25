@@ -52,7 +52,7 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  margin: 10% auto;
+  margin: 5%;
 }
 
 .btn-tog {
@@ -64,6 +64,8 @@ body {
 }
 
 ul {
+  padding: 5px 0;
+  margin: 10px;
   list-style: none;
 }
 
@@ -104,23 +106,30 @@ a:hover {
   width: 100vw;
   height: 100vh;
   background-color: #3e3c3c;
-  padding: 1rem;
+  padding: 0;
   margin: 0;
   z-index: 10;
 }
 
 .tog-open {
   display: block;
-  width: 85%;
+  width: 95%;
   text-align: left;
-  line-height: 44px;
-  padding: 0 1rem;
+  margin-top: 10px;
+  line-height: 50px;
+  padding: 0;
   border-bottom: 1px solid #6f6c6b;
 }
 
 .tog-open a {
   font-size: 32px;
+  padding-left: 10px;
   font-weight: 700;
+}
+
+.tog-open img {
+  height: 3vh;
+  margin: 10px;
 }
 
 .btn-mail {
@@ -129,6 +138,7 @@ a:hover {
 
 .menue-cancel-open {
   display: block;
+  margin: 0;
   width: 95%;
   text-align: right;
 }
