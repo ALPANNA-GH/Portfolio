@@ -164,8 +164,8 @@ Ahmed Alpanna
 - LinkedIn: [IsaMarvin](https://www.linkedin.com/in/isamarvin/)
 
 👤 Umarah
-GitHub: [@umarahgul](https://github.com/umarahgul)
-LinkedIn: [umarahgul](https://www.linkedein.com/umarahgul)
+- GitHub: [@umarahgul](https://github.com/umarahgul)
+- LinkedIn: [umarahgul](https://www.linkedein.com/umarahgul)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
