@@ -19,7 +19,7 @@ window.onload = function () {
       proName: 'Profesional Art Printing Data More',
       proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
                 Has been the industry's standard.`,
-      proImage: '../images/bgPlaceholder.svg',
+      proImage: '../images/Imgholder.svg',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'http://www.github.com/proj1',
       sourceLink: 'http://www.proj1.com',
@@ -35,7 +35,7 @@ window.onload = function () {
     },
     {
       proName: 'Website Portfolio',
-      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
+      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.
                 Has been the industry's standard.`,
       proImage: '../images/bgPlaceholder2.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
@@ -44,9 +44,9 @@ window.onload = function () {
     },
     {
       proName: 'Profesional Art Printing Data More',
-      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
-                + " Has been the industry's standard.`,
-      proImage: '../images/bgPlaceholder.svg',
+      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.
+                Has been the industry's standard.`,
+      proImage: '../images/Imgholder.svg',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'http://www.github.com/proj1',
       sourceLink: 'http://www.proj1.com',
@@ -70,7 +70,7 @@ window.onload = function () {
       sourceLink: 'http://www.proj1.com',
     },
   ];
-  
+
   let techs = '';
   for (let i = 0; i < projects[0].proTechs.length; i++) {
     techs += `<li><a href="#"> ${projects[0].proTechs[i]}</a></li>`;
@@ -118,7 +118,7 @@ window.onload = function () {
       `;
   }
 
-  document.getElementById('mywork').innerHTML = sectionHTML;
+  document.getElementById('mywork').innerHTML += sectionHTML;
 
   function showMenue() {
     menueNavBar.classList.replace('nav', 'nav-open');
