@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = function load() {
   const menueBtn = document.querySelector('#menueShow');
   const menueCancelBtn = document.querySelector('#menueCancle');
   const menueNavBar = document.querySelector('#navbar');
@@ -12,7 +12,7 @@ window.onload = function () {
   let formData = {
     fullname: localStorage.getItem('formData.fullname'),
     email: localStorage.getItem('formData.fullname'),
-    textbody: localStorage.getItem('formData.fullname')
+    textbody: localStorage.getItem('formData.fullname'),
   };
   formData = JSON.parse(localStorage.getItem('formData'));
 
