@@ -173,9 +173,9 @@
           to chat please get in touch.
         </p>
         <form id="msgform" method="post" action="https://formspree.io/f/myyarkey">
-          <input class="inp" type="text" name="fullname" placeholder="Full name" maxlength="30" required />
+          <input id="fullName" class="inp" type="text" name="fullname" placeholder="Full name" maxlength="30" required />
           <input id="emailInp" class="inp" type="email" name="email" placeholder="Email address" required />
-          <textarea class="txtar" form="msgform" maxlength="500" placeholder="Write me something..."
+          <textarea id="txtBody" class="txtar" form="msgform" maxlength="500" placeholder="Write me something..."
             required></textarea>
           <input id="submitBtn" class="submitbtn" type="submit" value="Get in touch" />
         </form>

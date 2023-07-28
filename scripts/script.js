@@ -3,6 +3,22 @@ window.onload = function () {
   const menueCancelBtn = document.querySelector('#menueCancle');
   const menueNavBar = document.querySelector('#navbar');
   const menueItem = document.querySelectorAll('.navitem');
+
+  let msgform = document.getElementById('msgform');
+  let fullNameInp = document.getElementById('fullName');
+  let textbody = document.getElementById('txtbody');
+  let submitBtn = document.getElementById('submitBtn');
+  let emailInp = document.getElementById('emailInp');
+  let formData = {
+    fullname: localStorage.getItem('fullname'),
+    email: localStorage.getItem('email'),
+    textbody: localStorage.getItem('textbody'),
+  };
+  
+  fullNameInp.value = formData.fullname;
+  emailInp.value = formData.email;
+  textbody.value = formData.textbody;
+
   const projects = [
     {
       proName: 'Multi-Post Stories',
@@ -144,12 +160,7 @@ window.onload = function () {
     elmnt.addEventListener('click', hideMenue);
   });
 
-  //  validator
-  let msgform = document.getElementById('msgform');
-  let submitBtn = document.getElementById('submitBtn');
-  let emailInp = document.getElementById('emailInp');
-
-
+  // validator
   function validator(e) {
     e.preventDefault();
     if (emailInp.value === emailInp.value.toLowerCase()) {
@@ -168,5 +179,10 @@ window.onload = function () {
   }
 
   submitBtn.addEventListener('click', validator, false);
-  
+
+  //  storeData
+
+
+
+
 };
