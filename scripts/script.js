@@ -9,12 +9,8 @@ window.onload = function () {
   let textbody = document.getElementById('txtbody');
   let submitBtn = document.getElementById('submitBtn');
   let emailInp = document.getElementById('emailInp');
-  let formData = {
-    fullname: localStorage.getItem('fullname'),
-    email: localStorage.getItem('email'),
-    textbody: localStorage.getItem('textbody'),
-  };
-  
+  let formData = localStorage.getItem('formData');
+
   fullNameInp.value = formData.fullname;
   emailInp.value = formData.email;
   textbody.value = formData.textbody;
