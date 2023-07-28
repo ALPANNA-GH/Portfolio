@@ -14,11 +14,13 @@ window.onload = function load() {
     email: localStorage.getItem('formData.fullname'),
     textbody: localStorage.getItem('formData.fullname'),
   };
-  formData = JSON.parse(localStorage.getItem('formData'));
 
-  fullNameInp.value = formData.fullname;
-  emailInp.value = formData.email;
-  textbodyInp.value = formData.textbody;
+  formData = JSON.parse(localStorage.getItem('formData'));
+  if (formData) {
+    fullNameInp.value = formData.fullname;
+    emailInp.value = formData.email;
+    textbodyInp.value = formData.textbody;
+  }
 
   const projects = [
     {
