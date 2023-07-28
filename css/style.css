@@ -375,7 +375,7 @@ input[type='submit']:active {
 
 .dialog-container {
   position: fixed;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   left: 0;
@@ -690,6 +690,20 @@ input[type='submit']:active {
   font-weight: 700;
   padding: 0.75em 1em;
   margin-bottom: 1em;
+}
+
+.notify-msg {
+  height: 25px;
+  width: 90%;
+  background-color: rgb(156, 40, 40);
+  color: #f3fcca;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  opacity: 0.9;
+  transition: all 5000ms ease;
 }
 
 .footersocial {

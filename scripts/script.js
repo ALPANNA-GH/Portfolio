@@ -143,4 +143,30 @@ window.onload = function () {
   menueItem.forEach((elmnt) => {
     elmnt.addEventListener('click', hideMenue);
   });
+
+  //  validator
+  let msgform = document.getElementById('msgform');
+  let submitBtn = document.getElementById('submitBtn');
+  let emailInp = document.getElementById('emailInp');
+
+
+  function validator(e) {
+    e.preventDefault();
+    if (emailInp.value === emailInp.value.toLowerCase()) {
+      msgform.submit();
+    } else {
+      let notifyMsg = document.createElement('div');
+      notifyMsg.id = 'notify';
+      notifyMsg.className = 'notify-msg';
+      notifyMsg.style.display = 'block';
+      notifyMsg.innerText = 'Email is not lower case';
+      msgform.appendChild(notifyMsg);
+      setTimeout(() => {
+        notifyMsg.style.display = 'none';
+      }, 5000);
+    }
+  }
+
+  submitBtn.addEventListener('click', validator, false);
+  
 };
