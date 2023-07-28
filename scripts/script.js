@@ -163,7 +163,7 @@ window.onload = function load() {
     elmnt.addEventListener('click', hideMenue);
   });
 
-  // validator
+  //  validator
   function validator(e) {
     e.preventDefault();
     if (emailInp.value === emailInp.value.toLowerCase()) {
