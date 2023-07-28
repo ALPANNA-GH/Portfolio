@@ -333,6 +333,17 @@ input[type='submit']:active {
   color: #fff;
 }
 
+.dialog-tags a {
+  color: #000;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  border: #000 1px solid;
+  padding: 7px;
+  margin-left: 2px;
+}
+
 .item a:hover {
   border: #87ceeb 1px solid;
   text-decoration: underline;
@@ -425,22 +436,11 @@ input[type='submit']:active {
 
 .dialog-cancel {
   grid-area: cancel;
-  align-self: center ;
+  align-self: center;
   justify-self: center;
   padding: 15px;
-  width: 30;
-  height: 30;
-}
-
-.dialog-tags a {
-  color: #000;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 900;
-  line-height: 14px;
-  border: #000 1px solid;
-  padding: 7px;
-  margin-left: 2px;
+  width: 30px;
+  height: 30px;
 }
 
 .dialog-tags {
@@ -473,13 +473,13 @@ input[type='submit']:active {
 .dialog-btn {
   width: 94vw;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   grid-area: btn;
-  
 }
 
-.live-btn, .source-btn {
+.live-btn,
+.source-btn {
   display: flex;
   justify-content: space-between;
   background-color: #ff6b00;

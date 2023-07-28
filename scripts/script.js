@@ -4,16 +4,17 @@ window.onload = function () {
   const menueNavBar = document.querySelector('#navbar');
   const menueItem = document.querySelectorAll('.navitem');
 
-  let msgform = document.getElementById('msgform');
-  let fullNameInp = document.getElementById('fullName');
-  let textbody = document.getElementById('txtbody');
-  let submitBtn = document.getElementById('submitBtn');
-  let emailInp = document.getElementById('emailInp');
-  let formData = localStorage.getItem('formData');
+  const msgform = document.querySelector('#msgform');
+  const fullNameInp = document.querySelector('#fullName');
+  const textbodyInp = document.querySelector('#txtbody');
+  const submitBtn = document.querySelector('#submitBtn');
+  const emailInp = document.querySelector('#emailInp');
+  let formData = { fullname: '', email: '', textbody: '' };
+  // formData = localStorage.getItem('formData');
 
   fullNameInp.value = formData.fullname;
   emailInp.value = formData.email;
-  textbody.value = formData.textbody;
+  textbodyInp.value = formData.textbody;
 
   const projects = [
     {
@@ -84,7 +85,7 @@ window.onload = function () {
   ];
 
   let techs = '';
-  for (let i = 0; i < projects[0].proTechs.length; i++) {
+  for (let i = 0; i < projects[0].proTechs.length; i += i) {
     techs += `<li><a href="#"> ${projects[0].proTechs[i]}</a></li>`;
   }
 
@@ -108,9 +109,9 @@ window.onload = function () {
       </div>
     </div>`;
 
-  for (let i = 1; i < projects.length; i++) {
+  for (let i = 1; i < projects.length; i += i) {
     techs = '';
-    for (let t = 0; t < projects[i].proTechs.length; t++) {
+    for (let t = 0; t < projects[i].proTechs.length; t += t) {
       techs += `<li><a href="#"> ${projects[i].proTechs[t]}</a></li>`;
     }
 
@@ -162,7 +163,7 @@ window.onload = function () {
     if (emailInp.value === emailInp.value.toLowerCase()) {
       msgform.submit();
     } else {
-      let notifyMsg = document.createElement('div');
+      const notifyMsg = document.createElement('div');
       notifyMsg.id = 'notify';
       notifyMsg.className = 'notify-msg';
       notifyMsg.style.display = 'block';
@@ -177,8 +178,19 @@ window.onload = function () {
   submitBtn.addEventListener('click', validator, false);
 
   //  storeData
+  function saveData() {
+    alert('Save data');
 
+    // formData = {
+    //   fullname: fullNameInp.value,
+    //   email: emailInp.value,
+    //   textbody: textbodyInp.value,
+    // };
+    // localStorage.setItem('formData', formData);
+  }
 
-
-
+  // msgform.addEventListener('input', saveData);
+  emailInp.addEventListener('change', saveData);
+  textbodyInp.addEventListener('change', saveData);
+  fullNameInp.addEventListener('change', saveData);
 };
