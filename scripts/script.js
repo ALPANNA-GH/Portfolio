@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = function load() {
   const menueBtn = document.querySelector('#menueShow');
   const menueCancelBtn = document.querySelector('#menueCancle');
   const menueNavBar = document.querySelector('#navbar');
@@ -72,7 +72,7 @@ window.onload = function () {
   ];
 
   let techs = '';
-  for (let i = 0; i < projects[0].proTechs.length; i++) {
+  for (let i = 0; i < projects[0].proTechs.length; i += 1) {
     techs += `<li><a href="#"> ${projects[0].proTechs[i]}</a></li>`;
   }
 
@@ -96,9 +96,9 @@ window.onload = function () {
       </div>
     </div>`;
 
-  for (let i = 1; i < projects.length; i++) {
+  for (let i = 1; i < projects.length; i += 1) {
     techs = '';
-    for (let t = 0; t < projects[i].proTechs.length; t++) {
+    for (let t = 0; t < projects[i].proTechs.length; t += 1) {
       techs += `<li><a href="#"> ${projects[i].proTechs[t]}</a></li>`;
     }
 
@@ -145,17 +145,16 @@ window.onload = function () {
   });
 
   //  validator
-  let msgform = document.getElementById('msgform');
-  let submitBtn = document.getElementById('submitBtn');
-  let emailInp = document.getElementById('emailInp');
-
+  const msgform = document.getElementById('msgform');
+  const submitBtn = document.getElementById('submitBtn');
+  const emailInp = document.getElementById('emailInp');
 
   function validator(e) {
     e.preventDefault();
     if (emailInp.value === emailInp.value.toLowerCase()) {
       msgform.submit();
     } else {
-      let notifyMsg = document.createElement('div');
+      const notifyMsg = document.createElement('div');
       notifyMsg.id = 'notify';
       notifyMsg.className = 'notify-msg';
       notifyMsg.style.display = 'block';
@@ -168,5 +167,4 @@ window.onload = function () {
   }
 
   submitBtn.addEventListener('click', validator, false);
-  
 };
