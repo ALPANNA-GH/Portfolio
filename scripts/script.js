@@ -164,10 +164,6 @@ window.onload = function load() {
   });
 
   //  validator
-  const msgform = document.getElementById('msgform');
-  const submitBtn = document.getElementById('submitBtn');
-  const emailInp = document.getElementById('emailInp');
-
   function validator(e) {
     e.preventDefault();
     if (emailInp.value === emailInp.value.toLowerCase()) {
