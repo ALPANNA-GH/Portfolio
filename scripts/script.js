@@ -190,9 +190,5 @@ window.onload = function () {
     };
     localStorage.setItem('formData', JSON.stringify(formData));
   }
-
-  // msgform.addEventListener('input', saveData);
-  emailInp.addEventListener('change', saveData);
-  textbodyInp.addEventListener('change', saveData);
-  fullNameInp.addEventListener('change', saveData);
+  msgform.addEventListener('change', saveData);
 };
