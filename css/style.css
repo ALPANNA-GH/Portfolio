@@ -393,41 +393,34 @@ input[type='submit']:active {
 }
 
 .mywork-dialog {
-  grid-template-areas:
-    'title title title title cancel'
-    'tag tag tag tag tag'
-    'image image image image image '
-    'image image image image image '
-    'image image image image image '
-    'image image image image image '
-    'desc desc desc desc desc'
-    'desc desc desc desc desc'
-    'desc desc desc desc desc'
-    'btn btn btn btn btn';
-  height: 90vh;
-  width: 94vw;
-  padding: 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90%;
+  width: 92%;
   background-color: #fff;
   z-index: 10;
 }
 
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
 .dialog-title {
-  grid-area: title;
-  padding: 10px 10px;
   color: #172b4d;
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 1.7em;
   font-style: normal;
   font-weight: 900;
-  line-height: 44px;
-  margin: 10px 5px;
+  line-height: 1.5;
 }
 
 .dialog-cancel {
   grid-area: cancel;
   align-self: center ;
   justify-self: center;
-  padding: 15px;
   width: 30;
   height: 30;
 }
@@ -440,43 +433,50 @@ input[type='submit']:active {
   line-height: 14px;
   border: #000 1px solid;
   padding: 7px;
-  margin-left: 2px;
 }
 
 .dialog-tags {
-  grid-area: tag;
   list-style: none;
   display: flex;
-  margin-left: 5px;
+  margin: 0 10px;
+}
+
+.image-desc-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.dialog-feature-image {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .dialog-img {
-  display: block;
-  grid-area: image;
-  align-self: center;
-  justify-self: center;
-  margin: 10px 0 0;
+  width: 92%;
+  margin: 5px auto;
 }
 
 .dialog-desc {
-  grid-area: desc;
   color: #344563;
   font-family: Inter, Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.3;
-  padding: 0 14px;
-  margin-left: 5px;
-  font-weight: 400;
-  width: 35%;
+  margin: 15px;
+  text-align: left;
+  text-align: justify;
+  font-weight: 450;
 }
 
 .dialog-btn {
-  width: 94vw;
   display: flex;
-  justify-content:space-around;
-  align-items: center;
-  grid-area: btn;
-  
+  justify-content: space-around;
+  align-items: center;  
+  padding: 10px 5px;
 }
 
 .live-btn, .source-btn {
@@ -731,21 +731,74 @@ input[type='submit']:active {
   }
 
   .mywork-dialog {
-    display: grid;
-    grid-template-areas:
-      'title title title title title cancel'
-      'tag tag tag tag tag tag'
-      'image image image image desc desc'
-      'image image image image desc desc'
-      'image image image image desc desc'
-      'image image image image btn btn'
-      'image image image image btn btn';
-    max-height: 75vh;
-    max-width: 80vw;
-    padding: 15px;
-    background-color: #fff;
-    z-index: 10;
+    width: 70%;
+    height: 70%;
   }
+
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+  }
+  
+  .dialog-tags {
+    margin: 0 20px;
+  }
+  
+
+  .image-desc-btns {
+    flex-direction: row;
+  }
+
+  .dialog-feature-image {
+    flex: 3;
+    height: 90%;
+    width: 85%;
+    overflow: hidden;
+    align-items: baseline;
+  }
+
+  .dialog-desc { 
+    line-height: 1.1;
+    margin: 0 10px;
+    padding: 10px;
+    font-weight: 400;
+    overflow: hidden;
+  }
+
+  .desc-btns {
+    flex: 2;
+  }
+
+  .dialog-btn {
+    display: flex;
+    justify-content: left;
+    align-items: left;  
+  }
+
+  .live-btn, 
+  .source-btn {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    
+    letter-spacing: 0.7px;
+    margin-left: 20px;
+  }
+
+  .btn-icon1 {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  
+  .btn-icon2 {
+    height: 20px;
+    width: 14px;
+    margin-left: 15px;
+  }
+  
+  
 
   a {
     font-size: 2vw;
