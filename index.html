@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
-  <script type="text/javascript" src="scripts/script.js" ></script>
+  <script src="scripts/script.js"></script>
   <title>Portfolio</title>
 </head>
 
@@ -84,122 +84,36 @@
     </div>
   </section>
 
+  <!-- My Work popup dialog -->
+  <div id="dialogContainer" class="dialog-container">
+
+    <div id="myworkDialog" class="mywork-dialog">
+      <span id="dialogTitle" class="dialog-title">Multi Post Stories</span>
+      <a id="dialogCancel" class="dialog-cancel"><img src="/images/Icon-Cancel.svg" /></a>
+      <ul id="dialogTags" class="dialog-tags">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+        <li><a href="#">Ruby on Rails</a></li>
+      </ul>
+      <img class="dialog-img" src="images/Snapshoot.png" class="dialog-img">
+      <p class="dialog-desc">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essent
+      </p>
+      <div class="dialog-btn">
+        <a class="live-btn" href="#"><span>See Live</span> <span class="btn-icon1"></span></a>
+        <a class="source-btn" href="#"><span>See Source</span> <span class="btn-icon2"></span></a>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
   <!-- My Work section -->
   <section id="mywork" class="mywork">
-    <div class="item recent-work">
-      <h2 class="maintitle">My Recent Work</h2>
-      <img class="seperator" src="./images/lineseperator.png" />
-    </div>
-    <div class="item multi-post">
-      <div class="mp-img">
-        <img src="./images/placeholder.svg" alt="placeholder" />
-      </div>
-      <div class="mp-txt">
-        <h2 class="secondry">Multi-Post Stories</h2>
-        <p>
-          A daily selection of privately personalized reads;
-          no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="mp-list">
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby</a></li>
-        </ul>
-        <button class="buttn" type="button">See project</button>
-      </div>
-    </div>
-    <div class="item bgmask">
-      <div>
-        <h2 class="secondry">Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. Has been the industry's standard.
-        </p>
-        <ul>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby</a></li>
-        </ul>
-        <button class="butn" type="button">See project</button>
-      </div>
-    </div>
-    <div class="item bgmask">
-      <div>
-        <h2 class="secondry">Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. Has been the industry's standard.
-        </p>
-        <ul>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby</a></li>
-        </ul>
-        <button class="butn" type="button">See project</button>
-      </div>
-    </div>
-    <div class="item bgmask">
-      <div>
-        <h2 class="secondry">Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. Has been the industry's standard.
-        </p>
-        <ul>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby</a></li>
-        </ul>
-        <button class="butn" type="button">See project</button>
-      </div>
-    </div>
-    <div class="item bgmask">
-      <div>
-        <h2 class="secondry">Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. Has been the industry's standard.
-        </p>
-        <ul>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby</a></li>
-        </ul>
-        <button class="butn" type="button">See project</button>
-      </div>
-    </div>
-    <div class="item bgmask">
-      <div>
-        <h2 class="secondry">Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. Has been the industry's standard.
-        </p>
-        <ul>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby</a></li>
-        </ul>
-        <button class="butn" type="button">See project</button>
-      </div>
-    </div>
-    <div class="item bgmask">
-      <div>
-        <h2 class="secondry">Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. Has been the industry's standard.
-        </p>
-        <ul>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby</a></li>
-        </ul>
-        <button class="butn" type="button">See project</button>
-      </div>
-    </div>
   </section>
 
   <!-- About Me section -->
@@ -259,14 +173,14 @@
           to chat please get in touch.
         </p>
         <form id="msgform" method="post" action="https://formspree.io/f/myyarkey">
-          <input class="inp" type="text" name="fullname" placeholder="Full name" maxlength="30" required />
-          <input class="inp" type="email" name="email" placeholder="Email address" required />
-          <textarea class="txtar" form="msgform" maxlength="500" placeholder="Write me something..."
+          <input id="fullName" class="inp" type="text" name="fullname" placeholder="Full name" maxlength="30" required />
+          <input id="emailInp" class="inp" type="email" name="email" placeholder="Email address" required />
+          <textarea id="txtBody" class="txtar" form="msgform" maxlength="500" placeholder="Write me something..."
             required></textarea>
-          <input class="submitbtn" type="submit" value="Get in touch" />
+          <input id="submitBtn" class="submitbtn" type="submit" value="Get in touch" />
         </form>
       </div>
-    <!-- contact me end -->
+      <!-- contact me end -->
 
       <hr />
       <div class="footersocial">
