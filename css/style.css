@@ -461,15 +461,23 @@ input[type='submit']:active {
   margin: 5px auto;
 }
 
+.desc-btns {
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+
 .dialog-desc {
   color: #344563;
   font-family: Inter, Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.3;
+  font-size: 14px;
+  line-height: 1.2;
   margin: 15px;
   text-align: left;
   text-align: justify;
-  font-weight: 450;
+  font-weight: 400;
 }
 
 .dialog-btn {
@@ -761,6 +769,7 @@ input[type='submit']:active {
   .dialog-desc { 
     line-height: 1.1;
     margin: 0 10px;
+    text-align: justify;
     padding: 10px;
     font-weight: 400;
     overflow: hidden;

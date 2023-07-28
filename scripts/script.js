@@ -26,8 +26,14 @@ window.onload = function () {
     },
     {
       proName: 'Data Dashboard Healthcare',
-      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
-                Has been the industry's standard.`,
+      proDesc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it 1960s.
+                <br><br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it 1960s with 
+                the releax map lapora verita.`,
       proImage: '../images/bgPlaceholder1.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'http://www.proj1.com',
@@ -53,8 +59,11 @@ window.onload = function () {
     },
     {
       proName: 'Data Dashboard Healthcare',
-      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
-                Has been the industry's standard.`,
+      proDesc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essent`,
       proImage: '../images/bgPlaceholder1.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'http://www.proj1.com',
