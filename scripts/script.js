@@ -6,11 +6,15 @@ window.onload = function () {
 
   const msgform = document.querySelector('#msgform');
   const fullNameInp = document.querySelector('#fullName');
-  const textbodyInp = document.querySelector('#txtbody');
+  const textbodyInp = document.querySelector('#txtBody');
   const submitBtn = document.querySelector('#submitBtn');
   const emailInp = document.querySelector('#emailInp');
-  let formData = { fullname: '', email: '', textbody: '' };
-  // formData = localStorage.getItem('formData');
+  let formData = {
+    fullname: localStorage.getItem('formData.fullname'),
+    email: localStorage.getItem('formData.fullname'),
+    textbody: localStorage.getItem('formData.fullname')
+  };
+  formData = JSON.parse(localStorage.getItem('formData'));
 
   fullNameInp.value = formData.fullname;
   emailInp.value = formData.email;
@@ -85,7 +89,7 @@ window.onload = function () {
   ];
 
   let techs = '';
-  for (let i = 0; i < projects[0].proTechs.length; i += i) {
+  for (let i = 0; i < projects[0].proTechs.length; i += 1) {
     techs += `<li><a href="#"> ${projects[0].proTechs[i]}</a></li>`;
   }
 
@@ -109,9 +113,9 @@ window.onload = function () {
       </div>
     </div>`;
 
-  for (let i = 1; i < projects.length; i += i) {
+  for (let i = 1; i < projects.length; i += 1) {
     techs = '';
-    for (let t = 0; t < projects[i].proTechs.length; t += t) {
+    for (let t = 0; t < projects[i].proTechs.length; t += 1) {
       techs += `<li><a href="#"> ${projects[i].proTechs[t]}</a></li>`;
     }
 
@@ -179,14 +183,12 @@ window.onload = function () {
 
   //  storeData
   function saveData() {
-    alert('Save data');
-
-    // formData = {
-    //   fullname: fullNameInp.value,
-    //   email: emailInp.value,
-    //   textbody: textbodyInp.value,
-    // };
-    // localStorage.setItem('formData', formData);
+    formData = {
+      fullname: fullNameInp.value,
+      email: emailInp.value,
+      textbody: textbodyInp.value,
+    };
+    localStorage.setItem('formData', JSON.stringify(formData));
   }
 
   // msgform.addEventListener('input', saveData);
