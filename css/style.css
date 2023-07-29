@@ -752,7 +752,6 @@ input[type='submit']:active {
     margin: 0 20px;
   }
   
-
   .image-desc-btns {
     flex-direction: row;
   }
@@ -789,7 +788,6 @@ input[type='submit']:active {
     padding: 5px;
     font-size: 14px;
     font-weight: 600;
-    
     letter-spacing: 0.7px;
     margin-left: 20px;
   }
@@ -806,8 +804,6 @@ input[type='submit']:active {
     margin-left: 15px;
   }
   
-  
-
   a {
     font-size: 2vw;
   }

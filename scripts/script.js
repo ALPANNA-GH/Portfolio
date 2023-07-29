@@ -1,4 +1,4 @@
-window.onload = function load() {
+window.onload = function loadpage() {
   const menueBtn = document.querySelector('#menueShow');
   const menueCancelBtn = document.querySelector('#menueCancle');
   const menueNavBar = document.querySelector('#navbar');
@@ -25,11 +25,10 @@ window.onload = function load() {
   const projects = [
     {
       proName: 'Multi-Post Stories',
-      proDesc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, 
-                remaining essent`,
+      proDesc: `A daily selection of privately personalized reads; 
+                no accounts or sign-ups required. has been the industry's 
+                standard dummy text ever since the 1500s, 
+                when an unknown printer took a standard dummy text.`,
       proImage: '../images/placeholder.svg',
       proTechs: ['CSS', 'HTML', 'Boostrab', 'Ruby'],
       liveLink: 'http://www.github.com/proj1',
@@ -37,7 +36,7 @@ window.onload = function load() {
     },
     {
       proName: 'Profesional Art Printing Data More',
-      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.
+      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
                 Has been the industry's standard.`,
       proImage: '../images/Imgholder.svg',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
@@ -46,7 +45,7 @@ window.onload = function load() {
     },
     {
       proName: 'Data Dashboard Healthcare',
-      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.
+      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
                 Has been the industry's standard.`,
       proImage: '../images/bgPlaceholder1.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
@@ -55,14 +54,8 @@ window.onload = function load() {
     },
     {
       proName: 'Website Portfolio',
-      proDesc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it 1960s.
-                <br><br>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it 1960s with
-                the releax map lapora verita.`,
+      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.
+                Has been the industry's standard.`,
       proImage: '../images/bgPlaceholder2.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'http://www.proj1.com',
@@ -79,11 +72,8 @@ window.onload = function load() {
     },
     {
       proName: 'Data Dashboard Healthcare',
-      proDesc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, 
-                remaining essent`,
+      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
+                Has been the industry's standard.`,
       proImage: '../images/bgPlaceholder1.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'http://www.proj1.com',
@@ -91,7 +81,7 @@ window.onload = function load() {
     },
     {
       proName: 'Website Portfolio',
-      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.
+      proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
                 Has been the industry's standard.`,
       proImage: '../images/bgPlaceholder2.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
@@ -141,7 +131,7 @@ window.onload = function load() {
           <ul>
             ${techs}
           </ul>
-          <button class="butn" type="button">See project</button>
+          <button id="project${i}" class="butn" type="button">See project</button>
         </div>
       </div>
       `;
@@ -173,54 +163,61 @@ window.onload = function load() {
     elmnt.addEventListener('click', hideMenue);
   });
 
-  // function showPopupModal(pN) {
-  //   let projTech ='';
-  //   projects[pN].proTechs.forEach(element => {
-  //       projTech += `<li><a href="#">${element}</a></li>`
-  //     });
-      
-  //   let popupModal = `
-  //     <div id="dialogContainer" class="dialog-container">
-  //       <div id="myworkDialog" class="mywork-dialog">
-  //         <div id="dialogHeader" class="dialog-header">
-  //           <span id="dialogTitle" class="dialog-title">${projects[pN].proName}</span>
-  //           <a id="dialogCancel" class="dialog-cancel"><img src="/images/Icon-Cancel.svg" /></a>
-  //         </div>
-  //         <ul id="dialogTags" class="dialog-tags">
-  //         ${ projTech }
-  //         </ul>
-  //         <div id="imageDescBtns" class="image-desc-btns">
-  //           <div id="dialogFtImage" class="dialog-feature-image">
-  //             <img class="dialog-img" src="${projects[pN].proImage}" class="dialog-img">
-  //           </div>
-  //           <div id="descBtns" class="desc-btns">
-  //             <p class="dialog-desc">
-  //             ${projects[pN].proDesc}
-  //             </p>
-  //             <div class="dialog-btn">
-  //               <a class="live-btn" href="${projects[pN].liveLink}">
-  //                 <span>See Live</span> <span class="btn-icon1"></span>
-  //               </a>
-  //               <a class="source-btn" href="${projects[pN].sourceLink}">
-  //                 <span>See Source</span> <span class="btn-icon2"></span>
-  //               </a>
-  //             </div>
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </div>`;
+  function shosho(pp) {
+    alert(pp);
+  }
 
-  //   document.getElementById('mywork').innerHTML += popupModal;
-  //   document.body.classList.add('blur');
-  //   document.getElementById('dialogContainer').style.display = 'flex';
-  // }
+  function showPopupModal(pN) {
+    let projTech = '';
+    projects[pN].proTechs.forEach((element) => {
+      projTech += `<li><a href="#">${element}</a></li>`;
+    });
 
-  // let projectId = document.querySelectorAll('[id^="project"]');
-  // projectId.forEach((el) => {
-  //   el.addEventListener('click', showPopupModal(el.id.slice(-1)));
-  // });
+    let popupModal = `
+      <div id="dialogContainer" class="dialog-container">
+        <div id="myworkDialog" class="mywork-dialog">
+          <div id="dialogHeader" class="dialog-header">
+            <span id="dialogTitle" class="dialog-title">${projects[pN].proName}</span>
+            <a id="dialogCancel" class="dialog-cancel"><img src="/images/Icon-Cancel.svg" /></a>
+          </div>
+          <ul id="dialogTags" class="dialog-tags">
+          ${projTech}
+          </ul>
+          <div id="imageDescBtns" class="image-desc-btns">
+            <div id="dialogFtImage" class="dialog-feature-image">
+              <img class="dialog-img" src="${projects[pN].proImage}" class="dialog-img">
+            </div>
+            <div id="descBtns" class="desc-btns">
+              <p class="dialog-desc">
+              ${projects[pN].proDesc}
+              </p>
+              <div class="dialog-btn">
+                <a class="live-btn" href="${projects[pN].liveLink}">
+                  <span>See Live</span> <span class="btn-icon1"></span>
+                </a>
+                <a class="source-btn" href="${projects[pN].sourceLink}">
+                  <span>See Source</span> <span class="btn-icon2"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>`;
 
-  //  validator
+    document.getElementById('mywork').innerHTML += popupModal;
+    document.body.classList.add('blur');
+    document.getElementById('dialogContainer').style.display = 'flex';
+  }
+
+  const pro = document.querySelector('#project0');
+  pro.addEventListener('click', shosho(0));
+
+  let projectId = document.querySelectorAll('[id^="project"]');
+  projectId.forEach((el) => {
+    el.addEventListener('click', shosho(el.id.slice(-1)));
+  });
+
+  // validator
   function validator(e) {
     e.preventDefault();
     if (emailInp.value === emailInp.value.toLowerCase()) {
