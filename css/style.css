@@ -225,6 +225,10 @@ a:hover {
   padding: 0;
 }
 
+.buttn {
+  margin: 10px 5px;
+}
+
 .butn:hover,
 .buttn:hover,
 input[type='button']:hover,
@@ -335,13 +339,19 @@ input[type='submit']:active {
   color: #fff;
 }
 
+.dialog-tags a {
+  color: #000;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  border: #000 1px solid;
+  padding: 7px;
+}
+
 .item a:hover {
   border: #87ceeb 1px solid;
   text-decoration: underline;
-}
-
-.buttn {
-  margin: 10px 5px;
 }
 
 .item button {
@@ -436,20 +446,10 @@ input[type='submit']:active {
 }
 
 .dialog-cancel {
-  align-self: center ;
+  align-self: center;
   justify-self: center;
   width: 30px;
   height: 30px;
-}
-
-.dialog-tags a {
-  color: #000;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 900;
-  line-height: 14px;
-  border: #000 1px solid;
-  padding: 7px;
 }
 
 .dialog-tags {
@@ -473,11 +473,12 @@ input[type='submit']:active {
   display: flex;
   width: 100%;
   height: 40%;
-  background-size: fill;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
+
   /* overflow: hidden; */
 }
 
@@ -507,11 +508,11 @@ input[type='submit']:active {
 .dialog-btn {
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
   padding: 10px 5px;
 }
 
-.live-btn, 
+.live-btn,
 .source-btn {
   display: flex;
   justify-content: space-between;
@@ -773,11 +774,11 @@ input[type='submit']:active {
     justify-content: space-between;
     margin: 0 25px;
   }
-  
+
   .dialog-tags {
     margin: 0 20px;
   }
-  
+
   .image-desc-btns {
     display: flex;
     flex-direction: row;
@@ -793,7 +794,7 @@ input[type='submit']:active {
     margin: 0;
     padding: 0;
     background-position: center;
-    background-size: 100%;    
+    background-size: 100%;
   }
 
   .desc-btns {
@@ -804,7 +805,7 @@ input[type='submit']:active {
     height: 100%;
   }
 
-  .dialog-desc { 
+  .dialog-desc {
     line-height: 1.1;
     margin: 0 10px;
     text-align: left;
@@ -816,10 +817,10 @@ input[type='submit']:active {
   .dialog-btn {
     display: flex;
     justify-content: left;
-    align-items: left;  
+    align-items: start;
   }
 
-  .live-btn, 
+  .live-btn,
   .source-btn {
     padding: 5px 10px;
     font-size: 14px;
@@ -833,13 +834,13 @@ input[type='submit']:active {
     width: 20px;
     margin-left: 5px;
   }
-  
+
   .btn-icon2 {
     height: 20px;
     width: 16px;
     margin-left: 5px;
   }
-  
+
   a {
     font-size: 2vw;
   }
