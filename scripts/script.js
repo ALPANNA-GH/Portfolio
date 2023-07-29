@@ -173,6 +173,15 @@ window.onload = function load() {
     elmnt.addEventListener('click', hideMenue);
   });
 
+  function showPopupModal(id) {
+
+  }
+
+  let projectId = document.querySelectorAll('[id^="project"]');
+  projectId.forEach((el) => {
+    el.addEventListener('click', showPopupModal(el.id));
+  });
+
   //  validator
   function validator(e) {
     e.preventDefault();

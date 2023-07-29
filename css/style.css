@@ -419,11 +419,10 @@ input[type='submit']:active {
 }
 
 .dialog-cancel {
-  grid-area: cancel;
   align-self: center ;
   justify-self: center;
-  width: 30;
-  height: 30;
+  width: 30px;
+  height: 30px;
 }
 
 .dialog-tags a {
@@ -483,7 +482,7 @@ input[type='submit']:active {
 
 .dialog-btn {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;  
   padding: 10px 5px;
 }
@@ -494,9 +493,9 @@ input[type='submit']:active {
   background-color: #ff6b00;
   padding: 10px;
   font-family: Inter, Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 18px;
+  line-height: 1.8;
   letter-spacing: 0.7px;
 }
 
@@ -517,7 +516,7 @@ input[type='submit']:active {
   background-repeat: no-repeat;
   height: 24px;
   width: 18px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 /* about */
