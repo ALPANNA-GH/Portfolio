@@ -163,11 +163,12 @@ window.onload = function loadpage() {
     elmnt.addEventListener('click', hideMenue);
   });
 
-  function shosho(pp) {
-    alert(pp);
-  }
+  // function shosho() {
+  //   alert(this.id);
+  // }
 
-  function showPopupModal(pN) {
+  function showPopupModal() {
+    let pN = this.id.slice(-1); // get pN (project number) to select it from projects list
     let projTech = '';
     projects[pN].proTechs.forEach((element) => {
       projTech += `<li><a href="#">${element}</a></li>`;
@@ -204,18 +205,23 @@ window.onload = function loadpage() {
         </div>
       </div>`;
 
-    document.getElementById('mywork').innerHTML += popupModal;
-    document.body.classList.add('blur');
-    document.getElementById('dialogContainer').style.display = 'flex';
+    document.body.innerHTML += popupModal;
+    document.querySelector('#dialogContainer').style.display = 'flex';
+    document.querySelector('#bgblur').style.display = 'block';
+    modalClose.addEventListener('click', closePopup);
   }
-
-  const pro = document.querySelector('#project0');
-  pro.addEventListener('click', shosho(0));
-
+  let modalClose = document.querySelector('#dialogCancel');
   let projectId = document.querySelectorAll('[id^="project"]');
   projectId.forEach((el) => {
-    el.addEventListener('click', shosho(el.id.slice(-1)));
+    el.addEventListener('click', showPopupModal);
   });
+
+   function closePopup() {
+    document.querySelector('#dialogContainer').style.display = 'none';
+  document.querySelector('#bgblur').style.display = 'none';
+  }
+
+  
 
   // validator
   function validator(e) {
