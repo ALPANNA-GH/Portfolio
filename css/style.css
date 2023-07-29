@@ -152,7 +152,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url('../images/Illustration-header.svg');
+  background-image: url('/images/Illustration-header.svg');
   background-position: 25vh 85vw;
   background-repeat: no-repeat;
   background-size: 100vw;
@@ -225,6 +225,10 @@ a:hover {
   padding: 0;
 }
 
+.buttn {
+  margin: 10px 5px;
+}
+
 .butn:hover,
 .buttn:hover,
 input[type='button']:hover,
@@ -279,7 +283,7 @@ input[type='submit']:active {
   font-family: 'Poppins', sans-serif;
   flex-direction: column;
   justify-content: space-around;
-  width: 95%;
+  width: 94%;
   margin-bottom: 15%;
   padding: 0;
 }
@@ -293,15 +297,17 @@ input[type='submit']:active {
 .item p {
   font-size: 1rem;
   padding: 0;
-  margin: 1% 0;
+  margin: 10px 5px;
 }
 
 .item ul {
   list-style: none;
   display: flex;
-  width: 100%;
+  width: 94%;
   flex-direction: row;
+  justify-content: left;
   padding: 0;
+  margin: 10px 5px;
 }
 
 .item li {
@@ -341,7 +347,6 @@ input[type='submit']:active {
   line-height: 14px;
   border: #000 1px solid;
   padding: 7px;
-  margin-left: 2px;
 }
 
 .item a:hover {
@@ -360,7 +365,7 @@ input[type='submit']:active {
 }
 
 .bgmask {
-  background-image: url('../images/Imgholder.svg');
+  background-image: url('/images/Imgholder.svg');
   background-size: cover;
   color: #f3f3f3;
   width: 95%;
@@ -384,9 +389,22 @@ input[type='submit']:active {
   width: 100%;
 }
 
-.dialog-container {
-  position: fixed;
+.bgblur {
   display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(125deg, rgba(33, 33, 33, 0.9), rgba(55, 55, 55, 0.9), rgba(33, 33, 33, 0.9));
+  filter: blur(50px);
+  z-index: 8;
+}
+
+.dialog-container {
+  display: none;
+  position: fixed;
   justify-content: center;
   align-items: center;
   left: 0;
@@ -394,88 +412,102 @@ input[type='submit']:active {
   width: 100%;
   height: 100%;
   margin: 0;
-  background-color: rgba(33, 33, 33, 0.7);
+  padding: 0;
+  background-color: rgba(33, 33, 33, 0.5);
   overflow: hidden;
   z-index: 10;
 }
 
-.blur {
-  filter: blur(5px);
-}
-
 .mywork-dialog {
-  grid-template-areas:
-    'title title title title cancel'
-    'tag tag tag tag tag'
-    'image image image image image '
-    'image image image image image '
-    'image image image image image '
-    'image image image image image '
-    'desc desc desc desc desc'
-    'desc desc desc desc desc'
-    'desc desc desc desc desc'
-    'btn btn btn btn btn';
-  height: 90vh;
-  width: 94vw;
-  padding: 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 90%;
+  width: 94%;
   background-color: #fff;
   z-index: 10;
 }
 
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+  margin: 15px;
+}
+
 .dialog-title {
-  grid-area: title;
-  padding: 10px 10px;
   color: #172b4d;
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 1.7em;
   font-style: normal;
   font-weight: 900;
-  line-height: 44px;
-  margin: 10px 5px;
+  line-height: 1.5;
+  margin: 15px 0;
 }
 
 .dialog-cancel {
-  grid-area: cancel;
   align-self: center;
   justify-self: center;
-  padding: 15px;
   width: 30px;
   height: 30px;
 }
 
 .dialog-tags {
-  grid-area: tag;
   list-style: none;
   display: flex;
-  margin-left: 5px;
+  margin: 0 10px;
+}
+
+.image-desc-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 94%;
+  height: 80%;
+  margin: 15px auto;
+}
+
+.dialog-feature-image {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 40%;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
 }
 
 .dialog-img {
-  display: block;
-  grid-area: image;
-  align-self: center;
-  justify-self: center;
-  margin: 10px 0 0;
+  margin: 5px auto;
+  width: 100%;
+  height: 100%;
+}
+
+.desc-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 40%;
 }
 
 .dialog-desc {
-  grid-area: desc;
   color: #344563;
   font-family: Inter, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.3;
-  padding: 0 14px;
-  margin-left: 5px;
+  font-size: 15px;
+  line-height: 1.2;
+  margin: 15px 5px;
+  text-align: justify;
   font-weight: 400;
-  width: 35%;
 }
 
 .dialog-btn {
-  width: 94vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  grid-area: btn;
+  padding: 10px 5px;
 }
 
 .live-btn,
@@ -485,30 +517,30 @@ input[type='submit']:active {
   background-color: #ff6b00;
   padding: 10px;
   font-family: Inter, Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 18px;
+  line-height: 1.8;
   letter-spacing: 0.7px;
 }
 
 .btn-icon1 {
   display: inline-block;
-  background-image: url('../images/dialog-icon-on.svg');
+  background-image: url('/images/dialog-icon-on.svg');
   background-size: contain;
   background-repeat: no-repeat;
   height: 24px;
   width: 24px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .btn-icon2 {
   display: inline-block;
-  background-image: url('../images/dialog-icon-gh.svg');
+  background-image: url('/images/dialog-icon-gh.svg');
   background-size: contain;
   background-repeat: no-repeat;
   height: 24px;
   width: 18px;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 /* about */
@@ -541,7 +573,7 @@ input[type='submit']:active {
   height: 90vh;
   padding: 0;
   margin: 0;
-  background-image: url('../images/illustration-about-me-mobile.svg');
+  background-image: url('/images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 40vw;
@@ -745,20 +777,91 @@ input[type='submit']:active {
   }
 
   .mywork-dialog {
-    display: grid;
-    grid-template-areas:
-      'title title title title title cancel'
-      'tag tag tag tag tag tag'
-      'image image image image desc desc'
-      'image image image image desc desc'
-      'image image image image desc desc'
-      'image image image image btn btn'
-      'image image image image btn btn';
-    max-height: 75vh;
-    max-width: 80vw;
-    padding: 15px;
-    background-color: #fff;
-    z-index: 10;
+    width: 70%;
+    height: 70%;
+  }
+
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+  }
+
+  .dialog-title {
+    font-family: 'Crete Round', Helvetica, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+  }
+
+  .dialog-tags {
+    margin: 0 20px;
+  }
+
+  .image-desc-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+    width: 95%;
+    overflow: hidden;
+  }
+
+  .dialog-feature-image {
+    height: 100%;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .desc-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+  }
+
+  .dialog-desc {
+    margin: 0 10px;
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+    font-family: Inter, Consolas, "Courier New", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .dialog-btn {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+  }
+
+  .live-btn,
+  .source-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    margin-left: 15px;
+  }
+
+  .btn-icon1 {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+  }
+
+  .btn-icon2 {
+    height: 20px;
+    width: 16px;
+    margin-left: 5px;
   }
 
   a {
@@ -940,7 +1043,7 @@ input[type='submit']:active {
 
   .bgmask:hover {
     background-position: center;
-    background-image: url('../images/Imgholder.svg');
+    background-image: url('/images/Imgholder.svg');
     background-size: 150%;
   }
 

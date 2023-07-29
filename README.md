@@ -155,19 +155,6 @@ Ahmed Alpanna
 - Gmail: [alpanna@gmail.com](mailto:alpanna@gmail.com)
 
 
-👤 **Contributors**
-
-> thanks for your effort, time and valuable contributions
-
-👤 IsaMarvin
-- GitHub: [IsaMarvin](https://github.com/IsaMarvin)
-- LinkedIn: [IsaMarvin](https://www.linkedin.com/in/isamarvin/)
-
-👤 Umarah
-- GitHub: [@umarahgul](https://github.com/umarahgul)
-- LinkedIn: [umarahgul](https://www.linkedein.com/umarahgul)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -182,7 +169,20 @@ Ahmed Alpanna
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+👤 **Contributors**
+
+> thanks for your effort, time and valuable contributions
+
+👤 IsaMarvin
+- GitHub: [IsaMarvin](https://github.com/IsaMarvin)
+- LinkedIn: [IsaMarvin](https://www.linkedin.com/in/isamarvin/)
+
+👤 Umarah
+- GitHub: [@umarahgul](https://github.com/umarahgul)
+- LinkedIn: [umarahgul](https://www.linkedein.com/umarahgul)
+
+
+> Contributions, issues, and feature requests are welcome!
 
 
 🔭 **Issues**
