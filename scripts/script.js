@@ -34,10 +34,10 @@ window.onload = function loadpage() {
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                     It has survived not only five centuries, but also the leap into electronic typesetting, 
                     remaining essent`,
-      proImage: '../images/placeholder.svg',
+      proImage: '/images/placeholder.svg',
       proTechs: ['CSS', 'HTML', 'Boostrab', 'Ruby'],
-      liveLink: 'http://www.github.com/proj1',
-      sourceLink: 'http://www.proj1.com',
+      liveLink: 'https://alpanna-gh.github.io/Portfolio/',
+      sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
     },
     {
       proName: 'Profesional Art Printing Data More',
@@ -49,24 +49,25 @@ window.onload = function loadpage() {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it 1960s with 
                 the releax map lapora verita.`,
-      proImage: '../images/Imgholder.svg',
+      proImage: '/images/imgholder.svg',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
-      liveLink: 'http://www.github.com/proj1',
-      sourceLink: 'http://www.proj1.com',
+      liveLink: ' https://alpanna-gh.github.io/Portfolio/',
+      sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
     },
     {
       proName: 'Data Dashboard Healthcare',
       proDesc: `A daily selection of privately personalized reads; no accounts or sign-ups required.'
                 Has been the industry's standard.`,
       proLongDesc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, 
-                remaining essent`,
-      proImage: '../images/bgPlaceholder1.png',
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it 1960s with 
+                the releax map lapora verita.`,
+      proImage: '/images/bgPlaceholder1.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
-      liveLink: 'http://www.proj1.com',
-      sourceLink: 'http://www.proj1.com',
+      liveLink: 'https://alpanna-gh.github.io/Portfolio/',
+      sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
     },
     {
       proName: 'Website Portfolio',
@@ -78,10 +79,10 @@ window.onload = function loadpage() {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it 1960s with 
                 the releax map lapora verita.`,
-      proImage: '../images/bgPlaceholder2.png',
+      proImage: '/images/bgPlaceholder2.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
-      liveLink: 'http://www.proj1.com',
-      sourceLink: 'http://www.proj1.com',
+      liveLink: 'https://alpanna-gh.github.io/Portfolio/',
+      sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
     },
     {
       proName: 'Profesional Art Printing Data More',
@@ -92,10 +93,10 @@ window.onload = function loadpage() {
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                 It has survived not only five centuries, but also the leap into electronic typesetting, 
                 remaining essent`,
-      proImage: '../images/Imgholder.svg',
+      proImage: '/images/Imgholder.svg',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
-      liveLink: 'http://www.github.com/proj1',
-      sourceLink: 'http://www.proj1.com',
+      liveLink: ' https://alpanna-gh.github.io/Portfolio/',
+      sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
     },
     {
       proName: 'Data Dashboard Healthcare',
@@ -107,10 +108,10 @@ window.onload = function loadpage() {
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it 1960s with 
                     the releax map lapora verita.`,
-      proImage: '../images/bgPlaceholder1.png',
+      proImage: '/images/bgPlaceholder1.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
-      liveLink: 'http://www.proj1.com',
-      sourceLink: 'http://www.proj1.com',
+      liveLink: 'https://alpanna-gh.github.io/Portfolio/',
+      sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
     },
     {
       proName: 'Website Portfolio',
@@ -121,10 +122,10 @@ window.onload = function loadpage() {
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                 It has survived not only five centuries, but also the leap into electronic typesetting, 
                 remaining essent`,
-      proImage: '../images/bgPlaceholder2.png',
+      proImage: '/images/bgPlaceholder2.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
-      liveLink: 'http://www.proj1.com',
-      sourceLink: 'http://www.proj1.com',
+      liveLink: 'https://alpanna-gh.github.io/Portfolio/',
+      sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
     },
   ];
 
@@ -160,7 +161,7 @@ window.onload = function loadpage() {
     }
 
     sectionHTML += `
-      <div class='item bgmask' style='background-image: url('${projects[i].proImage}')'>
+      <div class='item bgmask' style='background-image: url(${projects[i].proImage})'>
         <div>
           <h2 class='secondry'>${projects[i].proName}</h2>
           <p>
