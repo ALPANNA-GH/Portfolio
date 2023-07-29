@@ -374,6 +374,7 @@ input[type='submit']:active {
 }
 
 .dialog-container {
+  display: none;
   position: fixed;
   display: flex;
   justify-content: center;

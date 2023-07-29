@@ -121,7 +121,7 @@ window.onload = function () {
           <ul>
             ${techs}
           </ul>
-          <button class="butn" type="button">See project</button>
+          <button id="project${i}" class="butn" type="button">See project</button>
         </div>
       </div>
       `;
