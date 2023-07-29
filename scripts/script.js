@@ -216,8 +216,8 @@ window.onload = function loadpage() {
     el.addEventListener('click', showPopupModal);
   });
 
-   function closePopup() {
-    document.querySelector('#dialogContainer').style.display = 'none';
+  function closePopup() {
+  document.querySelector('#dialogContainer').style.display = 'none';
   document.querySelector('#bgblur').style.display = 'none';
   }
 
