@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
-  <script type="text/javascript" src="scripts/script.js"></script>
+  <script src="scripts/script.js"></script>
   <title>Portfolio</title>
 </head>
 
@@ -180,11 +180,11 @@
           to chat please get in touch.
         </p>
         <form id="msgform" method="post" action="https://formspree.io/f/myyarkey">
-          <input class="inp" type="text" name="fullname" placeholder="Full name" maxlength="30" required />
-          <input class="inp" type="email" name="email" placeholder="Email address" required />
-          <textarea class="txtar" form="msgform" maxlength="500" placeholder="Write me something..."
+          <input id="fullName" class="inp" type="text" name="fullname" placeholder="Full name" maxlength="30" required />
+          <input id="emailInp" class="inp" type="email" name="email" placeholder="Email address" required />
+          <textarea id="txtBody" class="txtar" form="msgform" maxlength="500" placeholder="Write me something..."
             required></textarea>
-          <input class="submitbtn" type="submit" value="Get in touch" />
+          <input id="submitBtn" class="submitbtn" type="submit" value="Get in touch" />
         </form>
       </div>
       <!-- contact me end -->
