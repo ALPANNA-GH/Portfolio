@@ -49,7 +49,7 @@ window.onload = function loadpage() {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it 1960s with 
                 the releax map lapora verita.`,
-      proImage: 'images/imgholder.svg',
+      proImage: 'images/Imgholder.svg',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: ' https://alpanna-gh.github.io/Portfolio/',
       sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
