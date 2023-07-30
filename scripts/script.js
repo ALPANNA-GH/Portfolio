@@ -34,7 +34,7 @@ window.onload = function loadpage() {
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                     It has survived not only five centuries, but also the leap into electronic typesetting, 
                     remaining essent`,
-      proImage: '/images/placeholder.svg',
+      proImage: './images/placeholder.svg',
       proTechs: ['CSS', 'HTML', 'Boostrab', 'Ruby'],
       liveLink: 'https://alpanna-gh.github.io/Portfolio/',
       sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
@@ -49,7 +49,7 @@ window.onload = function loadpage() {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it 1960s with 
                 the releax map lapora verita.`,
-      proImage: '/images/imgholder.svg',
+      proImage: './images/imgholder.svg',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: ' https://alpanna-gh.github.io/Portfolio/',
       sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
@@ -64,7 +64,7 @@ window.onload = function loadpage() {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it 1960s with 
                 the releax map lapora verita.`,
-      proImage: '/images/bgPlaceholder1.png',
+      proImage: './images/bgPlaceholder1.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'https://alpanna-gh.github.io/Portfolio/',
       sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
@@ -79,7 +79,7 @@ window.onload = function loadpage() {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it 1960s with 
                 the releax map lapora verita.`,
-      proImage: '/images/bgPlaceholder2.png',
+      proImage: './images/bgPlaceholder2.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'https://alpanna-gh.github.io/Portfolio/',
       sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
@@ -93,7 +93,7 @@ window.onload = function loadpage() {
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                 It has survived not only five centuries, but also the leap into electronic typesetting, 
                 remaining essent`,
-      proImage: '/images/Imgholder.svg',
+      proImage: './images/Imgholder.svg',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: ' https://alpanna-gh.github.io/Portfolio/',
       sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
@@ -108,7 +108,7 @@ window.onload = function loadpage() {
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it 1960s with 
                     the releax map lapora verita.`,
-      proImage: '/images/bgPlaceholder1.png',
+      proImage: './images/bgPlaceholder1.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'https://alpanna-gh.github.io/Portfolio/',
       sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
@@ -122,7 +122,7 @@ window.onload = function loadpage() {
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                 It has survived not only five centuries, but also the leap into electronic typesetting, 
                 remaining essent`,
-      proImage: '/images/bgPlaceholder2.png',
+      proImage: './images/bgPlaceholder2.png',
       proTechs: ['HTML', 'Boostrab', 'Ruby'],
       liveLink: 'https://alpanna-gh.github.io/Portfolio/',
       sourceLink: 'https://github.com/ALPANNA-GH/Portfolio/',
@@ -136,7 +136,7 @@ window.onload = function loadpage() {
 
   let sectionHTML = `<div class="item recent-work">
       <h2 class="maintitle"> My Recent Work</h2>
-      <img class="seperator" src="./images/lineseperator.png" />
+      <img class="seperator" src="../images/lineseperator.png" />
     </div>
     <div class="item multi-post">
       <div class="mp-img">
