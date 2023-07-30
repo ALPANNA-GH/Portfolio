@@ -136,7 +136,7 @@ window.onload = function loadpage() {
 
   let sectionHTML = `<div class="item recent-work">
       <h2 class="maintitle"> My Recent Work</h2>
-      <img class="seperator" src=".images/lineseperator.png" />
+      <img class="seperator" src="images/lineseperator.png" />
     </div>
     <div class="item multi-post">
       <div class="mp-img">
